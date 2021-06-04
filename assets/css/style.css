@@ -13,7 +13,7 @@ body {
     color: silver;
 }
 
-/* headings */
+/* ========== HEADINGS ========== */
 
 h1 {
     font-family: 'Limelight', cursive;
@@ -33,7 +33,36 @@ h3 {
     font-size: 150%;
 }
 
-/* navigation */
+/* ========== FOOTER ========== */
+
+footer {
+    font-size: 110%;
+    letter-spacing: 4px;
+    line-height: 50px;
+    color: white;
+}
+
+footer hr{
+    padding-top: 1px;
+    border-bottom-style: solid;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+    margin-left: 30px;
+}
+
+footer p {
+    margin-left: 30px;
+}
+
+footer a:hover {
+    border-bottom: 1px solid red;
+    color: red;
+}
+
+/* ========== NAVIGATION ========== */
 
 #navigation {
     font-size: 110%;
@@ -69,7 +98,7 @@ h3 {
 
 
 
-/* main image & animation */
+/* ========== MAIN IMAGE & ANIMATION ========== */
 
 #main-outer {
     height: 600px;
@@ -101,7 +130,7 @@ h3 {
     }
 }
 
-/* text over main image */
+/* ========== TEXT OVER MAIN IMAGE ========== */
 
 #text-over-image {
     font-size: 110%;
@@ -120,7 +149,7 @@ h3 {
     transform: translate(-50%, -50%);
 } 
 
-/* be prepared section */
+/* ========== BE PREPARED SECTION ========== */
 
 #be-prepared {
     height: 800px;
@@ -183,7 +212,7 @@ h3 {
     font-size: 125%;
 }
 
-/* menu selection from home page */
+/* ========== MENU SELECTION ========== */
 
 #menu-selection {
     height: 600px;
@@ -231,7 +260,7 @@ h3 {
     background-color: red;
 }
 
-/* contact us section */
+/* ========== CONTACT US SECTION ========== */
 
 #contact-us {
     height: 725px;
@@ -304,33 +333,4 @@ h3 {
     border: 1px solid white;
     color: white;
     background-color: red;
-}
-
-/* footer */
-
-footer {
-    font-size: 110%;
-    letter-spacing: 4px;
-    line-height: 50px;
-    color: white;
-}
-
-footer hr{
-    padding-top: 1px;
-    border-bottom-style: solid;
-}
-
-footer a {
-    text-decoration: none;
-    color: inherit;
-    margin-left: 30px;
-}
-
-footer p {
-    margin-left: 30px;
-}
-
-footer a:hover {
-    border-bottom: 1px solid red;
-    color: red;
 }
