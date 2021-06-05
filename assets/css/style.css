@@ -7,6 +7,7 @@
 }
 
 body {
+    width: 100%;
     font-family: 'Josefin Slab', serif;
     font-weight: 500;
     background-color: #313131;
@@ -48,6 +49,7 @@ hr {
 /* ========== FOOTER ========== */
 
 footer {
+    width: 100%;
     font-size: 110%;
     letter-spacing: 4px;
     line-height: 50px;
@@ -59,14 +61,37 @@ footer hr{
     border-bottom-style: solid;
 }
 
-footer a {
-    text-decoration: none;
-    color: inherit;
+footer p {
+    text-align: center;
+    font-size: 75%;
+}
+
+#footer-ul {
+    width: 33%;
+    float: left;
     margin-left: 30px;
 }
 
-footer p {
-    margin-left: 30px;
+#terms {
+    width: 33%;
+    float: right;
+    margin-right: 30px;
+    text-align: right;
+}
+
+#copyrights {
+    width: 33%;
+    margin: 0 auto;
+}
+
+#footer-ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
 }
 
 footer a:hover {
@@ -81,7 +106,7 @@ footer a:hover {
     letter-spacing: 4px;
     line-height: 60px;
     color: white;
-    overflow: auto;
+    overflow: auto; 
 }
 
 .left-margin {
