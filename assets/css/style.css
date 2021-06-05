@@ -292,7 +292,7 @@ footer a:hover {
 /* ================================================= CONTACT US SECTION ================================================= */
 
 #contact-us {
-    height: 700px;
+    height: 800px;
     background-color: black;
     color: silver;
     text-align: center;
@@ -307,7 +307,7 @@ footer a:hover {
 }
 
 #contact-us h3 {
-    padding: 75px 200px 25px;
+    padding: 100px 200px 50px;
 }
 
 #left-contact-us {
@@ -339,7 +339,7 @@ footer a:hover {
 }
 
 #right-contact-us h3 {
-    padding: 175px 200px 50px;
+    padding: 225px 200px 50px;
 }
 
 #right-contact-us a {
