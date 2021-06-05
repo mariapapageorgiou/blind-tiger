@@ -14,7 +14,7 @@ body {
     color: silver;
 }
 
-/* ========== HEADER ========== */
+/* ================================================= HEADER ================================================= */
 
 header {
     position: sticky;
@@ -24,7 +24,7 @@ header {
     background-color: #313131;
 }
 
-/* ========== HEADINGS ========== */
+/* ================================================= HEADINGS ================================================= */
 
 h1 {
     font-family: 'Limelight', cursive;
@@ -48,7 +48,7 @@ hr {
     border-bottom: 1px solid silver;
 }
 
-/* ========== FOOTER ========== */
+/* ================================================= FOOTER ================================================= */
 
 footer {
     width: 100%;
@@ -101,7 +101,7 @@ footer a:hover {
     color: red;
 }
 
-/* ========== NAVIGATION ========== */
+/* ================================================= NAVIGATION ================================================= */
 
 #navigation {
     font-size: 125%;
@@ -142,7 +142,7 @@ footer a:hover {
     color: rgb(250, 35, 35);
 }
 
-/* ========== MAIN IMAGE & ANIMATION ========== */
+/* ================================================= MAIN IMAGE & ANIMATION ================================================= */
 
 #main-outer {
     height: 600px;
@@ -174,7 +174,7 @@ footer a:hover {
     }
 }
 
-/* ========== TEXT OVER MAIN IMAGE ========== */
+/* ================================================= TEXT OVER MAIN IMAGE ================================================= */
 
 #text-over-image {
     font-size: 110%;
@@ -193,14 +193,13 @@ footer a:hover {
     transform: translate(-50%, -50%);
 } 
 
-/* ========== BE PREPARED SECTION ========== */
+/* ================================================= BE PREPARED SECTION ================================================= */
 
 #be-prepared {
-    height: 1000px;
+    height: 800px;
     background-color: black;
     color: silver;
     text-align: center;
-    padding-bottom: 75px;
 }
 
 #be-prepared hr {
@@ -220,16 +219,12 @@ footer a:hover {
     clear:both;
 }
 
-#left-be-prepared h3 {
-    padding-top: 75px;
-    padding-left: 100px;
-    padding-bottom: 50px;
+#be-prepared h3 {
+    padding: 50px;
 }
 
-#left-be-prepared p {
-    padding-left: 200px;
-    padding-bottom: 20px;
-    padding-right: 100px;
+#be-prepared p {
+    padding: 10px 150px;
     font-size: 125%;
     border-right: 1px solid silver;
 }
@@ -239,20 +234,12 @@ footer a:hover {
     float: right;
 }
 
-#right-be-prepared h3 {
-    padding-top: 75px;
-    padding-bottom: 50px;
-    padding-right: 100px;
-}
-
 #right-be-prepared p {
-    padding-left: 100px;
-    padding-bottom: 30px;
-    padding-right: 200px;
+    padding: 10px 150px;
     font-size: 125%;
 }
 
-/* ========== MENU SELECTION ========== */
+/* ================================================= MENU SELECTION ================================================= */
 
 #menu-selection {
     height: 600px;
@@ -316,7 +303,7 @@ footer a:hover {
     background-color: rgb(250, 35, 35);
 }
 
-/* ========== CONTACT US SECTION ========== */
+/* ================================================= CONTACT US SECTION ================================================= */
 
 #contact-us {
     height: 725px;
