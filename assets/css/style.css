@@ -250,10 +250,10 @@ footer a:hover {
     position: relative;
 }
 
-#menu-selection hr {
+/* #menu-selection hr {
     padding-top: 50px;
     border-bottom-style: solid;
-}
+} */
 
 #menu-selection-image {
     height: 600px;
