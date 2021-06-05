@@ -88,6 +88,12 @@ footer a:hover {
     margin-left: 30px;
 }
 
+#logo {
+    float: right;
+    font-size: 200%;
+    margin-right: 30px;
+}
+
 #navigation li {
     float: left;
     list-style-type: none;
