@@ -359,3 +359,76 @@ footer a:hover {
     color: white;
     background-color: rgb(250, 35, 35);
 }
+
+
+/* ================================================= NEWSLETTER SECTION ================================================= */
+
+#newsletter {
+    height: 900px;
+    width: 100%;
+    background-color: black;
+    color: silver;
+    text-align: center;
+    position: relative;
+}
+
+#newsletter-image {
+    height: 900px;
+    width: 100%;
+    background-image: url("../images/jeremy-bishop-uLXBeh6oHn8-unsplash.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#newsletter-text{
+    letter-spacing: 4px;
+    text-align: center;
+
+    width: 500px;
+    height: 425px;
+
+    padding: 20px;
+
+    background-color: rgba(0,0,0,0.4);
+
+    top: 55%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#newsletter h3 {
+    letter-spacing: 4px;
+    font-size: 200%;
+    padding: 40px;
+    color: white;
+    text-shadow: 5px 2px 1px black;
+}
+
+#newsletter-email{
+    letter-spacing: 4px;
+    background-color: white;
+    color: grey;
+    text-decoration: none;
+    padding: 15px;
+    border-style: groove;
+
+    width: 400px;
+}
+
+input[type=submit] {
+    font-family: 'Limelight', cursive;
+    font-size: 200%;
+    margin-top: 40px;
+    padding: 20px;
+    color:rgb(223, 164, 0);
+    background-color: rgb(155, 0, 0);
+    border-style:ridge;
+}
+
+input[type=submit]:hover {
+    color: rgb(155, 0, 0);
+    background-color: rgb(223, 164, 0);
+}
