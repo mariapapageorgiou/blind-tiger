@@ -41,6 +41,10 @@ h3 {
     font-size: 150%;
 }
 
+hr {
+    border-bottom: 1px solid silver;
+}
+
 /* ========== FOOTER ========== */
 
 footer {
@@ -160,26 +164,22 @@ footer a:hover {
 /* ========== BE PREPARED SECTION ========== */
 
 #be-prepared {
-    height: 800px;
-    max-height:800px;
+    height: 1000px;
     background-color: black;
     color: silver;
     text-align: center;
-    padding-top:100px;
-    padding-bottom:100px;
+    padding-bottom: 75px;
 }
 
 #be-prepared hr {
     border-bottom-style: solid;
-    /* border-bottom-color: silver; */
-    padding-bottom: 20px;
 }
 
 #be-prepared h2 {
     font-family: 'Limelight', cursive;
     letter-spacing: 4px;
     font-size: 200%;
-    padding-bottom: 50px;
+    padding: 75px 0;
 }
 
 #left-be-prepared {
@@ -228,6 +228,7 @@ footer a:hover {
     background-color: black;
     color: silver;
     text-align: center;
+    position: relative;
 }
 
 #menu-selection hr {
@@ -245,11 +246,25 @@ footer a:hover {
     background-position-y: center;
 }
 
+#menu-selection-text{
+    font-size: 110%;
+    letter-spacing: 4px;
+    text-align: center;
+
+    width: 450px;
+    height: 150px;
+
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+}
+
 #menu-selection h2 {
     font-family: 'Limelight', cursive;
     letter-spacing: 4px;
     font-size: 200%;
-    padding-top: 175px;
     padding-bottom: 75px;
 }
 
