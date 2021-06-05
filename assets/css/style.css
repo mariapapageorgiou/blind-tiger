@@ -357,7 +357,15 @@ footer a:hover {
 }
 
 #left-contact-us a {
-    font-size: 120%;
+    font-size: 110%;
+    letter-spacing: 4px;
+    text-decoration: none;
+    color:lightcoral;
+}
+
+#left-contact-us a:hover {
+    color:rgb(250, 35, 35);
+    text-decoration: underline;
 }
 
 #right-contact-us {
