@@ -213,11 +213,11 @@ footer a:hover {
     letter-spacing: 4px;
     text-align: center;
 
-    width: 500px;
+    width: 350px;
     height: 200px;
     padding-top: 70px;
 
-    background-color: rgba(255, 4, 0, 0.8);
+    background-color: rgba(2, 57, 138, 0.8);
     text-shadow: 2px 2px black;
     border-radius: 50%;
     border-style: groove;
@@ -468,4 +468,21 @@ input[type=submit] {
 input[type=submit]:hover {
     color: rgb(155, 0, 0);
     background-color: rgb(223, 164, 0);
+}
+
+/* ================================================= DRINKS & BEVERAGES SECTION ================================================= */
+
+#drinks {
+    height: 800px;
+    background-color: black;
+    color: silver;
+    text-align: center;
+}
+
+#drinks h2 {
+    font-family: 'Limelight', cursive;
+    letter-spacing: 4px;
+    font-size: 200%;
+    padding: 75px 0;
+    background-color: rgb(60, 0, 0);
 }
