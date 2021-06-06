@@ -275,7 +275,7 @@ footer a:hover {
 /* ================================================= MENU SELECTION ================================================= */
 
 #menu-selection {
-    height: 600px;
+    height: 700px;
     width: 100%;
     background-color: black;
     color: silver;
@@ -284,7 +284,7 @@ footer a:hover {
 }
 
 #menu-selection-image {
-    height: 600px;
+    height: 700px;
     width: 100%;
     background-image: url("../images/sergio-alves-santos-PeDrafNlY2Y-unsplash.jpg");
     background-size: 100%;
@@ -301,7 +301,7 @@ footer a:hover {
     width: 450px;
     height: 150px;
 
-    top: 50%;
+    top: 45%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
