@@ -493,6 +493,7 @@ input[type=submit]:hover {
     padding: 25px;
     color: rgba(223, 163, 0, 0.932);
     text-shadow: 1px 1px grey;
+    font-size: 175%;
 }
 
 #drinks h4 {
@@ -537,6 +538,6 @@ input[type=submit]:hover {
     margin: 0 auto;
 }
 
-#beers {
+#beers, #most-wanted {
     padding-bottom: 60px;
 }
