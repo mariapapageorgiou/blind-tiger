@@ -37,6 +37,7 @@ h2 {
     font-family: 'Great Vibes', cursive;
     letter-spacing: 4px;
     color: white;
+    text-shadow: 2px 2px black;
 }
 
 h3 {
@@ -240,7 +241,7 @@ footer a:hover {
 #be-prepared h2 {
     font-family: 'Limelight', cursive;
     letter-spacing: 4px;
-    font-size: 200%;
+    font-size: 250%;
     padding: 75px 0;
     background-color: rgb(60, 0, 0);
 }
@@ -309,7 +310,7 @@ footer a:hover {
 #menu-selection h2 {
     font-family: 'Limelight', cursive;
     letter-spacing: 4px;
-    font-size: 200%;
+    font-size: 250%;
     padding-bottom: 50px;
 }
 
@@ -341,7 +342,7 @@ footer a:hover {
 #contact-us h2{
     font-family: 'Limelight', cursive;
     letter-spacing: 4px;
-    font-size: 200%;
+    font-size: 250%;
     padding: 75px;
     background-color: rgb(60, 0, 0);
 }
@@ -491,7 +492,9 @@ input[type=submit]:hover {
 #drinks h3 {
     padding: 25px;
     color: rgba(223, 163, 0, 0.932);
+    text-shadow: 1px 1px grey;
 }
+
 #drinks h4 {
     text-transform: uppercase;
     padding: 0 25px;
