@@ -536,3 +536,7 @@ input[type=submit]:hover {
 #most-wanted, #spirits-one {
     margin: 0 auto;
 }
+
+#beers {
+    padding-bottom: 60px;
+}
