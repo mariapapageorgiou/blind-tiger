@@ -131,13 +131,12 @@ footer a:hover {
 }
 
 #navigation .active {
-    border-bottom: 1px solid rgb(250, 35, 35);
-    color: rgb(250, 35, 35);
+    border-bottom: 1px solid rgb(0, 144, 228);
+    color: rgb(0, 144, 228);
 }
 
 #navigation a:hover {
-    border-bottom: 1px solid rgb(250, 35, 35);
-    color: rgb(250, 35, 35);
+    color: rgb(0, 113, 179);
 }
 
 /* ================================================= MAIN IMAGE, MENU IMAGE & ANIMATION ================================================= */
