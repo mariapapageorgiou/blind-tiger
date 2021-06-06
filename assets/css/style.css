@@ -474,7 +474,7 @@ input[type=submit]:hover {
 /* ================================================= DRINKS & BEVERAGES SECTION ================================================= */
 
 #drinks {
-    height: 1970px;
+    height: 2000px;
     width: 100%;
     background-color: black;
     color: silver;
@@ -540,4 +540,12 @@ input[type=submit]:hover {
 
 #beers, #most-wanted {
     padding-bottom: 60px;
+}
+
+#wines {
+    padding-bottom: 90px;
+}
+
+#spirits-one{
+    padding-bottom: 52px;
 }
