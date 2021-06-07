@@ -391,7 +391,6 @@ footer a:hover {
     transition-duration: 0.2s;
 }
 
-
 /* ================================================= NEWSLETTER SECTION ================================================= */
 
 #newsletter {
@@ -475,12 +474,12 @@ input[type=submit]:hover {
     padding: 25px;
     color: rgba(223, 163, 0, 0.932);
     text-shadow: 1px 1px grey;
-    font-size: 175%;
 }
 
 #drinks h4 {
     text-transform: uppercase;
     padding: 0 25px;
+    font-size: 80%;
 }
 
 #drinks p {
@@ -497,14 +496,13 @@ input[type=submit]:hover {
 }
 
 #first-drinks-section, #second-drinks-section {
-    height: 720px;
+    height: 700px;
     padding: 50px;
 }
 
 .drinks-div {
     width: 33%;
     font-size: 125%;
-    border: 2px groove rgba(223, 163, 0, 0.932);
     padding: 25px 0 50px;
 }
 
