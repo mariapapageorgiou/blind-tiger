@@ -237,6 +237,8 @@ footer a {
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
+
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.5), 0 0 20px 5px rgba(255, 255, 255, 0.5);
 }
 
 #text-over-image h2{
@@ -340,7 +342,7 @@ footer a {
     font-size: 150%;
     letter-spacing: 0;
     background-color: rgba(0, 0, 0, 0.3);
-    color: rgb(255, 187, 0);
+    color: rgb(253, 210, 91);
     text-decoration: none;
     text-shadow: none;
     font-weight: normal;
@@ -390,7 +392,7 @@ footer a {
 }
 
 #left-contact-us a:hover {
-    color: rgb(255, 200, 50);
+    color: rgb(253, 210, 91);
     text-decoration: underline;
 }
 
@@ -501,7 +503,7 @@ input[type=submit]:hover {
 #drinks {
     height: 1875px;
     width: 100%;
-    background-color: black;
+    background-color: rgb(50, 0, 0);
     color: silver;
 }
 
@@ -509,6 +511,8 @@ input[type=submit]:hover {
     padding: 20px;
     color: rgb(255, 200, 50);
     border: 3px double rgb(255, 200, 50);
+
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.3), 0 0 20px 5px rgba(255, 255, 255, 0.3);
 }
 
 #drinks h4 {
@@ -531,14 +535,16 @@ input[type=submit]:hover {
 }
 
 #first-drinks-section, #second-drinks-section {
-    height: 700px;
-    padding: 50px;
+    height: 850px;
+    padding: 50px 50px 0;
 }
 
 .drinks-div {
-    width: 33%;
+    width: 30%;
     font-size: 125%;
     padding: 0 0 50px;
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.3), 0 0 20px 10px rgba(255, 255, 255, 0.3);
+    background-color: black;
 }
 
 #cocktails, #wines {
@@ -551,22 +557,6 @@ input[type=submit]:hover {
 
 #most-wanted, #spirits-one {
     margin: 0 auto;
-}
-
-#beers, #most-wanted {
-    padding-bottom: 60px;
-}
-
-#wines {
-    padding-bottom: 0;
-}
-
-#spirits-one{
-    padding-bottom: 52px;
-}
-
-#spirits-two{
-    padding-bottom: 0;
 }
 
 /* ================================================= HAPPY HOUR SECTION ================================================= */
@@ -590,20 +580,26 @@ input[type=submit]:hover {
 
 #happy-hour-text{
     background-color: rgba(4, 18, 105, 0.9);
-    height: 600px;
+    height: 550px;
     top: 50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
 
     border: 3px double rgb(255, 200, 50);
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.3), 0 0 20px 10px rgba(255, 255, 255, 0.3);
 }
 
 #happy-hour h2 {
     color: rgb(255, 200, 50);
     background-color: initial;
     text-shadow: 2px 2px black;
-    padding: 50px 100px 50px;
+    padding: 25px 50px;
+    border-bottom: 3px double rgb(255, 200, 50);
+}
+
+#happy-hour ul {
+    padding: 20px 0;
 }
 
 #happy-hour li {
