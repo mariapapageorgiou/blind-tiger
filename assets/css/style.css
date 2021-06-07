@@ -11,7 +11,7 @@ body {
     font-family: 'Josefin Slab', serif;
     font-weight: 500;
     letter-spacing: 4px;
-    background-color: #272727;
+    background-color: rgb(46, 46, 46);
     color: silver;
     text-align: center;
 }
@@ -23,7 +23,7 @@ header {
     top:0;
     left:0;
     z-index: 100;
-    background-color: rgba(36, 35, 35, 0.95);
+    background-color: rgb(46, 46, 46);
 }
 
 /* ================================================= HEADINGS ================================================= */
@@ -33,15 +33,15 @@ h1 {
     letter-spacing: 11px;
     color: whitesmoke;
     font-size:400%;
-    text-shadow: 5px 5px #000000;
+    text-shadow: 5px 5px black;
     text-transform: uppercase;
 }
 
 h2 {
     font-family: 'Playfair Display', serif;
     font-size: 200%;
-    color: rgb(224, 224, 224);
-    text-shadow: 3px 3px #000000;
+    color: whitesmoke;
+    text-shadow: 3px 3px black;
     text-transform: uppercase;
     padding: 75px;
     background-color: rgb(50, 0, 0);
@@ -61,7 +61,7 @@ footer {
     width: 100%;
     font-size: 110%;
     line-height: 50px;
-    color: rgb(253, 253, 253);
+    color: silver;
 }
 
 footer p {
@@ -80,11 +80,15 @@ footer p {
     text-align: right;
 }
 
+#terms a:hover{
+    color: rgb(255, 200, 50);
+}
+
 #copyrights {
     width: 33%;
     margin: 0 auto;
-    color: rgb(253, 199, 48);
     padding-left: 40px;
+    color: rgb(253, 210, 91);
 }
 
 #footer-ul li{
@@ -98,24 +102,20 @@ footer a {
     color: inherit;
 }
 
-footer a:hover {
-    color:rgba(34, 174, 255, 0.7);
-}
-
 /* ================================================= SOCIAL MEDIA ================================================= */
 
 .fa {
     padding: 10px;
     font-size: 150%;
     width: 20px;
-  }
+}
 
 /* ================================================= NAVIGATION ================================================= */
 
 #navigation {
     font-size: 125%;
     line-height: 75px;
-    color: white;
+    color: whitesmoke;
     overflow: auto; 
 }
 
@@ -128,7 +128,7 @@ footer a:hover {
     font-size: 150%;
     letter-spacing: 8px;
     margin-right: 30px;
-    color: rgb(253, 199, 48);
+    color: rgb(255, 200, 50);
     text-shadow: 3px 3px black;
 }
 
@@ -145,13 +145,13 @@ footer a:hover {
 
 #navigation .active {
     font-weight: bold;
-    color: rgb(253, 199, 48);
-    border-bottom: 1px solid rgb(253, 199, 48);
+    color: rgb(253, 210, 91);
+    border-bottom: 1px solid rgb(253, 210, 91);
 }
 
 #navigation a:hover {
     font-weight: bolder;
-    color: rgb(211, 155, 0);
+    color: rgba(253, 210, 91, 0.7);
     border-bottom: none;
 }
 
@@ -211,7 +211,7 @@ footer a:hover {
     padding: 50px;
 
     background-color: rgba(1, 10, 65, 0.8);
-    border: 4px double rgb(255, 187, 0);
+    border: 4px double rgb(255, 200, 50);
 
     top: 50%;
     left: 50%;
@@ -221,17 +221,17 @@ footer a:hover {
 
 #text-over-image h2{
     font-family: 'Great Vibes', cursive;
-    font-size: 150%;
-    color: rgb(255, 187, 0);
-    text-shadow: 3px 3px #202020;
+    font-size: 175%;
+    color: rgb(255, 200, 50);
+    text-shadow: 3px 3px black;
     background-color: initial;
     text-transform: none;
     padding: 0;
 }
 
 #text-over-image h3{
-    font-size: 100%;
-    color: rgb(145, 143, 143);
+    font-size: 110%;
+    color: silver;
     font-weight: bolder;
     text-shadow: 2px 2px black;
 }
@@ -247,7 +247,7 @@ footer a:hover {
 #be-prepared {
     height: 800px;
     background-color: black;
-    color: rgb(200, 200, 200);
+    color: silver;
 }
 
 #left-be-prepared {
@@ -258,6 +258,7 @@ footer a:hover {
 
 #be-prepared h3 {
     padding: 50px 50px 40px;
+    color: rgb(255, 200, 50);
 }
 
 #be-prepared p {
@@ -266,7 +267,7 @@ footer a:hover {
 }
 
 #left-be-prepared p {
-    border-right: 1px solid rgb(200, 200, 200);
+    border-right: 1px solid silver;
 }
 
 #right-be-prepared {
@@ -318,22 +319,21 @@ footer a:hover {
 #menu-selection a {
     font-size: 150%;
     letter-spacing: 0;
-    background-color: rgba(36, 35, 35, 0.95);
-    color: rgb(255, 193, 23);
+    background-color: rgba(0, 0, 0, 0.3);
+    color: rgb(255, 187, 0);
     text-decoration: none;
     text-shadow: none;
     font-weight: normal;
     padding: 0 10px 10px;
-    border-style: groove;
+    border-style: double;
 
     transition-duration: 0.4s;
 }
 
 #menu-selection a:hover{
-    border: 3px groove whitesmoke;
-    color: whitesmoke;
-    background-color: rgb(255, 193, 23);
-    text-shadow: 2px 2px black;
+    color: rgb(255, 200, 50);
+    background-color: rgba(0, 0, 0, 0.95);
+    box-shadow: 0 0 20px 10px rgb(255, 255, 255), 0 0 20px 10px rgb(255, 255, 255);
 }
 
 #menu-selection span {
@@ -366,11 +366,11 @@ footer a:hover {
 #left-contact-us a {
     font-size: 110%;
     text-decoration: none;
-    color:lightcoral;
+    color:rgba(253, 210, 91, 0.7);
 }
 
 #left-contact-us a:hover {
-    color:rgb(250, 35, 35);
+    color: rgb(255, 200, 50);
     text-decoration: underline;
 }
 
@@ -385,17 +385,20 @@ footer a:hover {
 
 #right-contact-us a {
     font-size: 100%;
-    color: #8a8a8a;
+    color: gray;
     text-decoration: none;
     padding: 20px;
 }
 
 #right-contact-us a:hover{
     font-size: 200%;
-    border: 1px groove rgb(214, 0, 0);
-    border-radius: 3%;
-    color: white;
     background-color: rgb(214, 0, 0);
+    border: 1px groove;
+    border-radius: 3%;
+    color: whitesmoke;
+    text-shadow: 1px 1px black;
+    
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.4), 0 0 20px 10px rgba(255, 255, 255, 0.4);
 
     transition-duration: 0.2s;
 }
@@ -435,7 +438,7 @@ footer a:hover {
 #newsletter h3 {
     font-size: 200%;
     padding: 40px 40px 15px;
-    color: white;
+    color: whitesmoke;
     text-shadow: 2px 2px 1px black;
 }
 
@@ -444,8 +447,8 @@ footer a:hover {
     font-size: 125%;
     font-weight: 500;
     letter-spacing: 4px;
-    background-color: white;
-    color: grey;
+    background-color: whitesmoke;
+    color: silver;
     text-decoration: none;
     padding: 15px;
     border-style: groove;
@@ -460,19 +463,17 @@ input[type=submit] {
     letter-spacing: 2px;
     margin-top: 20px;
     padding: 10px 10px 10px 12px;
-    color:rgb(224, 224, 224);
-    background-color: rgb(231, 170, 0);
+    color:whitesmoke;
+    background-color: rgb(214, 0, 0);
     text-shadow: 1px 1px 1px black;
     border-style: groove;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 input[type=submit]:hover {
-    color: rgb(255, 255, 255);
-    background-color: rgb(253, 199, 48);
-    /* text-shadow: 2px 2px 1px black; */
+    color: whitesmoke;
+    background-color: rgb(255, 200, 50);
     cursor: pointer;
-    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.19);
+    box-shadow: 0 10px 16px 10px rgba(255, 255, 255, 0.25), 0 17px 50px 10px rgba(255, 255, 255, 0.20);
 }
 
 /* ================================================= DRINKS & BEVERAGES SECTION ================================================= */
@@ -486,8 +487,8 @@ input[type=submit]:hover {
 
 #drinks h3 {
     padding: 20px;
-    color: rgb(255, 187, 0);
-    border: 3px double rgb(255, 187, 0)
+    color: rgb(255, 200, 50);
+    border: 3px double rgb(255, 200, 50);
 }
 
 #drinks h4 {
@@ -499,7 +500,7 @@ input[type=submit]:hover {
 #drinks p {
     padding: 5px 25px;
     font-size: 75%;
-    text-decoration: underline dotted rgba(109, 109, 109, 0.575);
+    text-decoration: underline dotted rgba(111, 111, 111, 0.5);
 }
 
 #drinks li {
@@ -571,11 +572,11 @@ input[type=submit]:hover {
     position: absolute;
     transform: translate(-50%, -50%);
 
-    border: 3px double rgb(255, 187, 0);
+    border: 3px double rgb(255, 200, 50);
 }
 
 #happy-hour h2 {
-    color: rgb(255, 187, 0);
+    color: rgb(255, 200, 50);
     background-color: initial;
     text-shadow: 2px 2px black;
     padding: 50px 50px 25px;
