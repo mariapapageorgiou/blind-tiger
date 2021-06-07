@@ -499,7 +499,7 @@ input[type=submit]:hover {
 /* ================================================= DRINKS & BEVERAGES SECTION ================================================= */
 
 #drinks {
-    height: 2000px;
+    height: 1875px;
     width: 100%;
     background-color: black;
     color: silver;
@@ -538,7 +538,7 @@ input[type=submit]:hover {
 .drinks-div {
     width: 33%;
     font-size: 125%;
-    padding: 25px 0 50px;
+    padding: 0 0 50px;
 }
 
 #cocktails, #wines {
@@ -558,24 +558,28 @@ input[type=submit]:hover {
 }
 
 #wines {
-    padding-bottom: 90px;
+    padding-bottom: 0;
 }
 
 #spirits-one{
     padding-bottom: 52px;
 }
 
+#spirits-two{
+    padding-bottom: 0;
+}
+
 /* ================================================= HAPPY HOUR SECTION ================================================= */
 
 #happy-hour {
-    height: 700px;
+    height: 800px;
     width: 100%;
     background-color: black;
     position: relative;
 }
 
 #happy-hour-image {
-    height: 700px;
+    height: 800px;
     width: 100%;
     background-image: url("../images/pexels-cottonbro-5371926.jpg");
     background-size: 50%;
@@ -586,7 +590,7 @@ input[type=submit]:hover {
 
 #happy-hour-text{
     background-color: rgba(4, 18, 105, 0.9);
-    height: 500px;
+    height: 600px;
     top: 50%;
     left: 50%;
     position: absolute;
@@ -599,7 +603,7 @@ input[type=submit]:hover {
     color: rgb(255, 200, 50);
     background-color: initial;
     text-shadow: 2px 2px black;
-    padding: 50px 50px 25px;
+    padding: 50px 100px 50px;
 }
 
 #happy-hour li {
@@ -607,5 +611,11 @@ input[type=submit]:hover {
     color: whitesmoke;
     text-shadow: 2px 2px black;
     list-style-type: none;
-    padding: 20px 0;
+    padding: 0 0 20px;
+}
+
+#happy-hour h3 {
+    font-size:300%;
+    color: rgb(255, 200, 50);
+    padding: 0;
 }
