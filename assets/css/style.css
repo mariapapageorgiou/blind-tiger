@@ -232,15 +232,10 @@ footer a:hover {
     height: 66px;
     padding: 20px 15px 20px 25px;
 }
-
-#menu-text-over-image h1 {
-    color: rgb(152, 179, 248);
-}
-
 /* ================================================= BE PREPARED SECTION ================================================= */
 
 #be-prepared {
-    height: 800px;
+    height: 900px;
     background-color: black;
     color: silver;
     text-align: center;
@@ -257,7 +252,7 @@ footer a:hover {
 }
 
 #be-prepared p {
-    padding: 10px 150px;
+    padding: 10px 100px;
     font-size: 125%;
     border-right: 1px solid silver;
 }
@@ -267,10 +262,6 @@ footer a:hover {
     float: right;
 }
 
-#right-be-prepared p {
-    padding: 10px 150px;
-    font-size: 125%;
-}
 
 /* ================================================= MENU SELECTION ================================================= */
 
@@ -288,6 +279,7 @@ footer a:hover {
     width: 100%;
     background-image: url("../images/sergio-alves-santos-PeDrafNlY2Y-unsplash.jpg");
     background-size: 100%;
+    opacity: 0.7;
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
@@ -298,7 +290,7 @@ footer a:hover {
     text-align: center;
 
     width: 100%;
-    height: 50px;
+    height: 100px;
 
     top: 50%;
     left: 50%;
@@ -307,34 +299,35 @@ footer a:hover {
 }
 
 #menu-selection h2 {
+    font-size: 180%;
     background-color: initial;
     text-transform: none;
     padding: 10px;
 }
 
 #menu-selection a {
-    font-family: 'Josefin Slab', serif;
     font-size: 150%;
     letter-spacing: 0;
-    background-color: rgba(0, 89, 141, 0.8);
-    color: black;
+    background-color: rgba(36, 35, 35, 0.95);
+    color: rgb(255, 193, 23);
     text-decoration: none;
     text-shadow: none;
-    padding: 10px;
+    font-weight: normal;
+    padding: 0 10px 10px;
     border-style: groove;
 
     transition-duration: 0.4s;
 }
 
 #menu-selection a:hover{
-    border: 3px groove rgba(160, 0, 0, 0.85);
-    color: rgba(160, 0, 0, 0.85);
-    background-color: white;
-    text-shadow: 1px 1px black;
+    border: 3px groove whitesmoke;
+    color: whitesmoke;
+    background-color: rgb(255, 193, 23);
+    text-shadow: 2px 2px black;
 }
 
 #menu-selection span {
-    padding: 10px;
+    padding: 10px 20px;
 }
 
 /* ================================================= CONTACT US SECTION ================================================= */
