@@ -110,6 +110,26 @@ footer a {
     width: 20px;
 }
 
+.fa-facebook:hover {
+    color:#3B5998;
+}
+
+.fa-youtube:hover {
+    color: #bb0000;
+}
+
+.fa-snapchat-ghost:hover {
+    color: #fffc00;
+}
+
+.fa-instagram:hover {
+    color: #b73bff;
+
+}
+.fa-twitter:hover {
+    color:#55ACEE;
+}
+
 /* ================================================= NAVIGATION ================================================= */
 
 #navigation {
