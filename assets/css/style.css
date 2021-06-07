@@ -501,9 +501,9 @@ input[type=submit]:hover {
 /* ================================================= DRINKS & BEVERAGES SECTION ================================================= */
 
 #drinks {
-    height: 1875px;
+    height: 1825px;
     width: 100%;
-    background-color: rgb(50, 0, 0);
+    background-color: rgb(40, 0, 0);
     color: silver;
 }
 
@@ -512,7 +512,7 @@ input[type=submit]:hover {
     color: rgb(255, 200, 50);
     border: 3px double rgb(255, 200, 50);
 
-    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.3), 0 0 20px 5px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.3), 0 0 10px 5px rgba(255, 255, 255, 0.3);
 }
 
 #drinks h4 {
@@ -535,7 +535,7 @@ input[type=submit]:hover {
 }
 
 #first-drinks-section, #second-drinks-section {
-    height: 850px;
+    height: 825px;
     padding: 50px 50px 0;
 }
 
@@ -543,7 +543,7 @@ input[type=submit]:hover {
     width: 30%;
     font-size: 125%;
     padding: 0 0 50px;
-    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.3), 0 0 20px 10px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.3), 0 0 20px 5px rgba(255, 255, 255, 0.3);
     background-color: black;
 }
 
@@ -587,7 +587,7 @@ input[type=submit]:hover {
     transform: translate(-50%, -50%);
 
     border: 3px double rgb(255, 200, 50);
-    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.3), 0 0 20px 10px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.3), 0 0 10px 5px rgba(255, 255, 255, 0.3);
 }
 
 #happy-hour h2 {
