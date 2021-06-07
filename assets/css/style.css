@@ -38,8 +38,9 @@ h1 {
 
 h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 250%;
-    color: white;
+    font-size: 200%;
+    text-align: center;
+    color: rgb(224, 224, 224);
     text-shadow: 3px 3px #000000;
     text-transform: uppercase;
     padding: 75px;
@@ -296,8 +297,8 @@ footer a:hover {
     font-size: 110%;
     text-align: center;
 
-    width: 450px;
-    height: 175px;
+    width: 100%;
+    height: 50px;
 
     top: 50%;
     left: 50%;
@@ -308,23 +309,32 @@ footer a:hover {
 #menu-selection h2 {
     background-color: initial;
     text-transform: none;
-    margin: 0 0 55px;
-    padding: 0;
+    padding: 10px;
 }
 
 #menu-selection a {
-    font-size: 200%;
-    background-color: rgba(172, 3, 0, 0.8);
-    color: white;
+    font-family: 'Josefin Slab', serif;
+    font-size: 150%;
+    letter-spacing: 0;
+    background-color: rgba(0, 89, 141, 0.8);
+    color: black;
     text-decoration: none;
-    padding: 20px;
+    text-shadow: none;
+    padding: 10px;
     border-style: groove;
+
+    transition-duration: 0.4s;
 }
 
 #menu-selection a:hover{
-    border: 1px solid white;
-    color: white;
-    background-color: rgb(250, 35, 35);
+    border: 3px groove rgba(160, 0, 0, 0.85);
+    color: rgba(160, 0, 0, 0.85);
+    background-color: white;
+    text-shadow: 1px 1px black;
+}
+
+#menu-selection span {
+    padding: 10px;
 }
 
 /* ================================================= CONTACT US SECTION ================================================= */
