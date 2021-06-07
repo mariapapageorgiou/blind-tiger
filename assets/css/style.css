@@ -37,9 +37,13 @@ h1 {
 }
 
 h2 {
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Playfair Display', serif;
+    font-size: 250%;
     color: white;
-    text-shadow: 3px 3px #202020;
+    text-shadow: 3px 3px #000000;
+    text-transform: uppercase;
+    padding: 75px;
+    background-color: rgb(50, 0, 0);
 }
 
 h3 {
@@ -205,8 +209,13 @@ footer a:hover {
 }
 
 #text-over-image h2{
-    color: rgba(223, 164, 0, 0.932);
+    font-family: 'Great Vibes', cursive;
     font-size: 150%;
+    color: rgba(223, 164, 0, 0.932);
+    text-shadow: 3px 3px #202020;
+    background-color: initial;
+    text-transform: none;
+    padding: 0;
 }
 
 #text-over-image h3{
@@ -234,13 +243,6 @@ footer a:hover {
     background-color: black;
     color: silver;
     text-align: center;
-}
-
-#be-prepared h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 250%;
-    padding: 75px 0;
-    background-color: rgb(60, 0, 0);
 }
 
 #left-be-prepared {
@@ -295,18 +297,19 @@ footer a:hover {
     text-align: center;
 
     width: 450px;
-    height: 150px;
+    height: 175px;
 
-    top: 45%;
+    top: 50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
 }
 
 #menu-selection h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 250%;
-    padding-bottom: 50px;
+    background-color: initial;
+    text-transform: none;
+    margin: 0 0 55px;
+    padding: 0;
 }
 
 #menu-selection a {
@@ -331,13 +334,6 @@ footer a:hover {
     background-color: black;
     color: silver;
     text-align: center;
-}
-
-#contact-us h2{
-    font-family: 'Playfair Display', serif;
-    font-size: 250%;
-    padding: 75px;
-    background-color: rgb(60, 0, 0);
 }
 
 #contact-us h3 {
@@ -467,13 +463,6 @@ input[type=submit]:hover {
     background-color: black;
     color: silver;
     text-align: center;
-}
-
-#drinks h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 250%;
-    padding: 75px 0;
-    background-color: rgb(60, 0, 0);
 }
 
 #drinks h3 {
