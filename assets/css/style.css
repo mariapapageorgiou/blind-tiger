@@ -13,6 +13,7 @@ body {
     letter-spacing: 4px;
     background-color: #202020;
     color: silver;
+    text-align: center;
 }
 
 /* ================================================= HEADER ================================================= */
@@ -39,7 +40,6 @@ h1 {
 h2 {
     font-family: 'Playfair Display', serif;
     font-size: 200%;
-    text-align: center;
     color: rgb(224, 224, 224);
     text-shadow: 3px 3px #000000;
     text-transform: uppercase;
@@ -65,7 +65,6 @@ footer {
 }
 
 footer p {
-    text-align: center;
     font-size: 75%;
 }
 
@@ -194,8 +193,6 @@ footer a:hover {
 /* ================================================= TEXT OVER MAIN IMAGE & MENU IMAGE ================================================= */
 
 #text-over-image, #menu-text-over-image {
-    text-align: center;
-
     width: 525px;
     height: 150px;
     padding: 50px;
@@ -238,7 +235,6 @@ footer a:hover {
     height: 900px;
     background-color: black;
     color: silver;
-    text-align: center;
 }
 
 #left-be-prepared {
@@ -270,7 +266,6 @@ footer a:hover {
     width: 100%;
     background-color: black;
     color: silver;
-    text-align: center;
     position: relative;
 }
 
@@ -287,7 +282,6 @@ footer a:hover {
 
 #menu-selection-text{
     font-size: 110%;
-    text-align: center;
 
     width: 100%;
     height: 100px;
@@ -336,7 +330,6 @@ footer a:hover {
     height: 700px;
     background-color: black;
     color: silver;
-    text-align: center;
 }
 
 #contact-us h3 {
@@ -349,7 +342,7 @@ footer a:hover {
 }
 
 #left-contact-us p {
-    padding: 10px 200px;
+    padding: 10px 150px;
     font-size: 125%;
     text-align: left;
 }
@@ -398,7 +391,6 @@ footer a:hover {
     width: 100%;
     background-color: black;
     color: silver;
-    text-align: center;
     position: relative;
 }
 
@@ -413,8 +405,6 @@ footer a:hover {
 }
 
 #newsletter-text{
-    text-align: center;
-
     width: 500px;
     height: 425px;
 
@@ -467,7 +457,6 @@ input[type=submit]:hover {
     width: 100%;
     background-color: black;
     color: silver;
-    text-align: center;
 }
 
 #drinks h3 {
@@ -528,4 +517,49 @@ input[type=submit]:hover {
 
 #spirits-one{
     padding-bottom: 52px;
+}
+
+/* ================================================= HAPPY HOUR SECTION ================================================= */
+
+#happy-hour {
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+
+#happy-hour-image {
+    height: 700px;
+    width: 100%;
+    background-image: url("../images/pexels-cottonbro-5371926.jpg");
+    background-size: 50%;
+    background-repeat:repeat-x;
+    background-position-x:left;
+    background-position-y: bottom;
+}
+
+#happy-hour-text{
+    background-color: rgba(4, 18, 105, 0.9);
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+    border: 3px double rgb(255, 187, 0);
+}
+
+#happy-hour h2 {
+    color: rgb(255, 187, 0);
+    background-color: initial;
+    text-shadow: 2px 2px black;
+    padding: 50px 50px 25px;
+}
+
+#happy-hour li {
+    font-size: 150%;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+    list-style-type: none;
+    padding: 20px 0;
 }
