@@ -647,10 +647,9 @@ input[type=submit]:hover {
 }
 
 #secret-image-title {
-    height: 50px;
-    width: 900px;
+    height: 5%;
 
-    top: 80px;
+    top: 15%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -678,13 +677,13 @@ input[type=submit]:hover {
 }
 
 #secret-text-over-image {
-    top: 4%;
-    bottom: 4%;
-    left: 5%;
-    right: 5%;
+    top: 18%;
+    left: 12%;
+    right: 10%;
     position: absolute;
-    margin: 5%;
 }
+
+/* ================================================= FORM ================================================= */
 
 #form-left {
     font-family: inherit;
@@ -810,6 +809,28 @@ input[type=checkbox] {
 }
 
 /* ====================== MEDIA QUERIES ====================== */
+
+/* ====================== larger to extra large 4K screen size ====================== */
+@media screen and (min-width: 2000px) {
+    #secret-outer, #secret-image {
+        height: 1290px;
+    }
+
+    #secret-image-title {
+        top: 20%;
+    }
+
+    #secret-text-over-image {
+        top: 34%;
+        left: 13%;
+        right: 11%;
+    }
+
+    #form {
+        top: 20%;
+        left:auto;
+    }
+}
 
 /* ====================== larger to medium screen size 1200px and below ====================== */
 @media screen and (max-width: 1600px) {
