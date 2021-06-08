@@ -659,3 +659,20 @@ input[type=submit]:hover {
     font-size: 250%;
     text-transform: none;
 }
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px black, 0 0 10px black, 0 0 15px whitesmoke, 0 0 20px whitesmoke;
+    }
+
+    to {
+        text-shadow: 0 0 10px black, 0 0 20px rgb(255, 200, 50), 0 0 30px rgb(255, 200, 50), 0 0 40px rgb(255, 200, 50);
+    }
+}
