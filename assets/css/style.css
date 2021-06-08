@@ -649,7 +649,7 @@ input[type=submit]:hover {
     height: 50px;
     width: 900px;
 
-    top: 100px;
+    top: 80px;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -675,9 +675,123 @@ input[type=submit]:hover {
 }
 
 #secret-text-over-image {
-    background-color: rgba(54, 84, 252, 0.699);
-    top: 25%;
+    top: 4%;
+    bottom: 4%;
     left: 5%;
+    right: 5%;
     position: absolute;
-    margin: 10%;
+    margin: 5%;
+}
+
+#form-left {
+    font-family: inherit;
+    font-size: 150%;
+    width: 50%;
+    float: left;
+
+    padding: 10px;
+}
+
+#form-right {
+    width: 40%;
+    float: right;
+    margin: 300px 0 100px;
+}
+
+#form h3 {
+    color: rgb(255, 200, 50);
+}
+
+#form-right input[type=submit] {
+    color: whitesmoke;
+    background-color: rgba(255, 36, 36, 0.7);
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 10px 16px 10px rgba(255, 255, 255, 0.233), 0 17px 50px 10px rgba(255, 255, 255, 0.20);
+}
+
+#form-right input[type=submit]:hover {
+    color: whitesmoke;
+    background-color: rgb(36, 160, 36);
+    cursor: pointer;
+    box-shadow: 0 10px 16px 10px rgb(255, 255, 255), 0 17px 50px 10px rgb(255, 255, 255);
+}
+
+.col-left {
+    float: left;
+    width: 35%;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.col-right {
+    float: left;
+    width: 65%;
+    margin-top: 6px;
+}
+
+.radio-left {
+    float: left;
+    width: 5%;
+    text-align: left;
+}
+.radio-right {
+    float: left;
+    width: 90%;
+    text-align: left;
+    margin-top: 6px;
+    font-size: 80%;
+}
+
+input[type="radio"] {
+    margin-top: -1px;
+    vertical-align: middle;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#form legend {
+    padding: 30px 0 10px;
+}
+
+.left-align {
+    text-align: left;
+}
+.left-align p {
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel] {
+    height: 30px;
+    width: 95%;
+	margin: 0 auto;
+    padding: 0 5px;
+    border: 2px double rgb(255, 200, 50);
+}
+
+input[list=alcohol] {
+    background-color: rgba(111, 111, 111, 0.5);
+    border: 2px double rgb(255, 200, 50);
+    height: 30px;
+    width: 50%;
+	margin: 0 auto;
+}
+
+input[list=alcohol]:hover {
+    background-color: whitesmoke;
+    border: 2px double rgb(255, 200, 50);
+    height: 30px;
+    width: 50%;
+	margin: 0 auto;
+}
+
+input[type=checkbox] {
+    margin-top: 15px;
 }
