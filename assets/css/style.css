@@ -272,21 +272,10 @@ footer a {
 /* ================================================= BE PREPARED SECTION ================================================= */
 
 #be-prepared {
-    height: 800px;
+    height: 900px;
     width:100%;
     background-color: black;
     color: silver;
-}
-
-#be-prepared h3 {
-    padding: 50px 50px 40px;
-    color: rgb(255, 200, 50);
-}
-
-
-#be-prepared p {
-    padding: 10px 100px;
-    font-size: 125%;
 }
 
 #left-be-prepared {
@@ -297,6 +286,17 @@ footer a {
 #right-be-prepared {
     width: 50%;
     float: right;
+}
+
+#be-prepared h3 {
+    padding: 50px 50px 40px;
+    color: rgb(255, 200, 50);
+}
+
+
+#be-prepared p {
+    padding: 10px 150px;
+    font-size: 125%;
 }
 
 #left-be-prepared p {
@@ -816,7 +816,7 @@ input[type=checkbox] {
 /* ====================== larger to medium screen size 1200px and below ====================== */
 @media screen and (max-width: 1600px) {
     #be-prepared, #contact-us, #form{
-        height: 1500px;
+        height: 1200px;
         margin: 0 auto;
     }
     
