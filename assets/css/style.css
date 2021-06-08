@@ -7,11 +7,9 @@
 }
 
 body {
-    width: 100%;
     font-family: 'Josefin Slab', serif;
     font-weight: 500;
     letter-spacing: 4px;
-    background-color: rgb(46, 46, 46);
     color: silver;
     text-align: center;
 }
@@ -19,11 +17,12 @@ body {
 /* ================================================= HEADER ================================================= */
 
 header {
+    width: 100%;
     position: sticky;
     top: 0;
     left: 0;
     z-index: 100;
-    background-color: rgba(46, 46, 46, 0.9);
+    background-color: rgba(36, 36, 36, 0.9);
 }
 
 /* ================================================= HEADINGS ================================================= */
@@ -62,6 +61,7 @@ footer {
     font-size: 110%;
     line-height: 50px;
     color: silver;
+    background-color: black;
 }
 
 footer p {
@@ -273,14 +273,9 @@ footer a {
 
 #be-prepared {
     height: 800px;
+    width:100%;
     background-color: black;
     color: silver;
-}
-
-#left-be-prepared {
-    width: 50%;
-    float: left;
-    clear: both;
 }
 
 #be-prepared h3 {
@@ -288,13 +283,15 @@ footer a {
     color: rgb(255, 200, 50);
 }
 
+
 #be-prepared p {
     padding: 10px 100px;
     font-size: 125%;
 }
 
-#left-be-prepared p {
-    border-right: 1px solid silver;
+#left-be-prepared {
+    width: 50%;
+    float: left;
 }
 
 #right-be-prepared {
@@ -302,6 +299,9 @@ footer a {
     float: right;
 }
 
+#left-be-prepared p {
+    border-right: 1px solid silver;
+}
 
 /* ================================================= MENU SELECTION ================================================= */
 
@@ -371,21 +371,29 @@ footer a {
 
 #contact-us {
     height: 700px;
+    width: 100%;
     background-color: black;
     color: silver;
 }
 
-#contact-us h3 {
+#left-contact-us {
+    width: 40%;
+    float: left;
+    padding: 0 0 0 150px;
+}
+
+#right-contact-us {
+    width: 40%;
+    float: right;
+    padding: 0 150px 0 0;
+}
+
+#left-contact-us h3 {
     padding: 75px 200px 25px;
 }
 
-#left-contact-us {
-    width: 50%;
-    float: left;
-}
-
 #left-contact-us p {
-    padding: 10px 150px;
+    padding: 10px 0 10px 200px;
     font-size: 125%;
     text-align: left;
 }
@@ -399,11 +407,6 @@ footer a {
 #left-contact-us a:hover {
     color: rgb(253, 210, 91);
     text-decoration: underline;
-}
-
-#right-contact-us {
-    width: 50%;
-    float: right;
 }
 
 #right-contact-us h3 {
@@ -789,8 +792,8 @@ input[type=tel] {
 }
 
 input[list=alcohol] {
-    background-color: rgba(111, 111, 111, 0.5);
-    border: 2px double rgb(255, 200, 50);
+    background-color: rgb(255, 200, 50);
+    border: 2px double whitesmoke;
     height: 30px;
     width: 50%;
 	margin: 0 auto;
@@ -806,4 +809,26 @@ input[list=alcohol]:hover {
 
 input[type=checkbox] {
     margin-top: 15px;
+}
+
+/* ====================== MEDIA QUERIES ====================== */
+
+/* ====================== larger to medium screen size 1200px and below ====================== */
+@media screen and (max-width: 1600px) {
+    #be-prepared, #contact-us, #form{
+        height: 1500px;
+        margin: 0 auto;
+    }
+    
+    #be-prepared h2, #secret-image-title, #contact-us h2 {
+        padding: 30px 0;
+        margin: 0 auto;
+    } 
+
+    #left-be-prepared, #right-be-prepared, #left-contact-us, #right-contact-us, #form-left, #form-right {
+        width: 100%;
+        float: left;
+        padding:0;
+        margin: 0 auto;
+    }
 }
