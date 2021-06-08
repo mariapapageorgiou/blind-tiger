@@ -656,6 +656,8 @@ input[type=submit]:hover {
 }
 
 #secret-image-title h1 {
+    color: silver;
+    font-family: inherit;
     font-size: 250%;
     text-transform: none;
 }
@@ -670,7 +672,7 @@ input[type=submit]:hover {
     }
 
     to {
-        text-shadow: 0 0 10px black, 0 0 20px rgb(255, 200, 50), 0 0 30px rgb(255, 200, 50), 0 0 40px rgb(255, 200, 50);
+        text-shadow: 0 0 10px black, 0 0 20px rgb(255, 200, 50), 0 0 30px rgb(255, 200, 50), 0 0 40px rgb(255, 200, 50), 0 0 50px rgb(255, 200, 50);
     }
 }
 
@@ -699,7 +701,7 @@ input[type=submit]:hover {
 }
 
 #form h3 {
-    color: rgb(255, 200, 50);
+    font-size: 110%;
 }
 
 #form-right input[type=submit] {
@@ -718,6 +720,7 @@ input[type=submit]:hover {
 }
 
 .col-left {
+    color: rgb(255, 200, 50);
     float: left;
     width: 35%;
     margin-top: 10px;
@@ -734,18 +737,27 @@ input[type=submit]:hover {
     float: left;
     width: 5%;
     text-align: left;
+    padding: 10px;
 }
 .radio-right {
     float: left;
     width: 90%;
     text-align: left;
-    margin-top: 6px;
+    margin-top: 16px;
     font-size: 80%;
 }
 
-input[type="radio"] {
+input[type=radio] {
     margin-top: -1px;
     vertical-align: middle;
+    font-family: 'Josefin Slab', serif;
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+/* Fix color to show */
+input[type=radio]:checked{
+    background-color: rgb(255, 200, 50);
 }
 
 .row:after {
