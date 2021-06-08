@@ -23,7 +23,7 @@ header {
     top:0;
     left:0;
     z-index: 100;
-    background-color: rgb(46, 46, 46);
+    background-color: rgba(46, 46, 46, 0.9);
 }
 
 /* ================================================= HEADINGS ================================================= */
@@ -355,7 +355,7 @@ footer a {
 #menu-selection a:hover{
     color: rgb(255, 200, 50);
     background-color: rgba(0, 0, 0, 0.95);
-    box-shadow: 0 0 20px 10px rgb(255, 255, 255), 0 0 20px 10px rgb(255, 255, 255);
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.7), 0 0 20px 5px rgba(255, 255, 255, 0.6);
 }
 
 #menu-selection span {
@@ -420,7 +420,7 @@ footer a {
     color: whitesmoke;
     text-shadow: 1px 1px black;
     
-    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.4), 0 0 20px 10px rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.4), 0 0 20px 10px rgba(255, 255, 255, 0.3);
 
     transition-duration: 0.2s;
 }
@@ -512,7 +512,7 @@ input[type=submit]:hover {
     color: rgb(255, 200, 50);
     border: 3px double rgb(255, 200, 50);
 
-    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.3), 0 0 10px 5px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.4), 0 0 10px 5px rgba(255, 255, 255, 0.3);
 }
 
 #drinks h4 {
@@ -543,7 +543,7 @@ input[type=submit]:hover {
     width: 30%;
     font-size: 125%;
     padding: 0 0 50px;
-    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.3), 0 0 20px 5px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.4), 0 0 20px 15px rgba(255, 255, 255, 0.3);
     background-color: black;
 }
 
@@ -587,7 +587,7 @@ input[type=submit]:hover {
     transform: translate(-50%, -50%);
 
     border: 3px double rgb(255, 200, 50);
-    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.3), 0 0 10px 5px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.4), 0 0 20px 10px rgba(255, 255, 255, 0.3);
 }
 
 #happy-hour h2 {
@@ -614,4 +614,23 @@ input[type=submit]:hover {
     font-size:300%;
     color: rgb(255, 200, 50);
     padding: 0;
+}
+
+/* ================================================= IT'S A SECRET IMAGE ================================================= */
+
+#secret-outer {
+    height: 800px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+
+#secret-image {
+    height: 800px;
+    width: 100%;
+    background-image: url("../images/pexels-pied-piper-1468419.jpg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
 }
