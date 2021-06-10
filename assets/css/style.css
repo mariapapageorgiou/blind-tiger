@@ -639,7 +639,7 @@ input[type=submit]:hover {
 #secret-image {
     height: 835px;
     width: 100%;
-    background-image: url("../images/pexels-pied-piper-1468419.jpg");
+    background-image: url('../images/pexels-pied-piper-1468419.jpg');
     background-size: 90%;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -752,7 +752,9 @@ input[type=radio]:checked{
 }
 
 #form legend {
-    padding: 30px 0 10px;
+    padding: 50px 0 20px;
+    text-align: left;
+    font-size: 150%;
 }
 
 .left-align {
@@ -823,8 +825,8 @@ input[type=checkbox] {
 
     #secret-text-over-image {
         top: 34%;
-        left: 13%;
-        right: 11%;
+        left: 18%;
+        right: 12%;
     }
 
     #form {
