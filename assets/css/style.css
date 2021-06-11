@@ -686,7 +686,6 @@ input[type=submit]:hover {
 /* ================================================= FORM ================================================= */
 
 #form-left {
-    font-family: inherit;
     font-size: 120%;
     width: 50%;
     float: left;
@@ -708,7 +707,7 @@ input[type=submit]:hover {
     color: rgb(255, 200, 50);
     float: left;
     width: 35%;
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: left;
 }
 
@@ -732,19 +731,6 @@ input[type=submit]:hover {
     font-size: 80%;
 }
 
-input[type=radio] {
-    margin-top: -1px;
-    vertical-align: middle;
-    font-family: 'Josefin Slab', serif;
-    cursor: pointer;
-    transform: scale(1.5);
-}
-
-/* Fix color to show */
-input[type=radio]:checked{
-    background-color: rgb(255, 200, 50);
-}
-
 .row:after {
     content: "";
     display: table;
@@ -757,11 +743,8 @@ input[type=radio]:checked{
     font-size: 150%;
 }
 
-.left-align {
-    text-align: left;
-}
 .left-align p {
-    color: whitesmoke;
+    color: rgb(255, 200, 50);
     font-weight: bolder;
 }
 
@@ -769,30 +752,38 @@ input[type=text],
 input[type=email],
 input[type=tel] {
     height: 30px;
-    width: 95%;
+    width: 60%;
 	margin: 0 auto;
     padding: 0 5px;
     border: 2px double rgb(255, 200, 50);
 }
 
 input[list=alcohol] {
-    background-color: rgb(255, 200, 50);
-    border: 2px double whitesmoke;
+    background-color: whitesmoke;
+    border: 2px double rgb(255, 200, 50);
+
     height: 30px;
-    width: 50%;
+    width: 60%;
 	margin: 0 auto;
+    padding: 0 5px;
 }
 
 input[list=alcohol]:hover {
-    background-color: whitesmoke;
-    border: 2px double rgb(255, 200, 50);
-    height: 30px;
-    width: 50%;
-	margin: 0 auto;
+    background-color: rgb(255, 200, 50);
+    border: 2px double whitesmoke;
 }
 
-input[type=checkbox] {
-    margin-top: 15px;
+input[type=radio] {
+    margin-top: 5px;
+    vertical-align: middle;
+    font-family: 'Josefin Slab', serif;
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+/* Fix color to show */
+input[type=radio]:checked{
+    background-color: rgb(255, 200, 50);
 }
 
 #form-right input[type=submit] {
@@ -806,7 +797,7 @@ input[type=checkbox] {
 
 #form-right input[type=submit]:hover {
     color: whitesmoke;
-    background-color: rgb(36, 160, 36);
+    background-color: rgb(255, 200, 50);
     cursor: pointer;
     box-shadow: 0 10px 16px 10px rgb(255, 255, 255), 0 17px 50px 10px rgb(255, 255, 255);
 }
