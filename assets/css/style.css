@@ -21,7 +21,7 @@ header {
     position: sticky;
     top: 0;
     left: 0;
-    z-index: 2;
+    z-index: 100;
     background-color: rgba(36, 36, 36, 0.9);
 }
 
@@ -77,19 +77,90 @@ hr {
 }
 
 .list-items {
-    margin: 0;
-    padding: 0;
     list-style: none;
     overflow: hidden;
-    clear: none;
-    max-height: none;
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
 }
 
 .list-items li {
     float: left;
     list-style-type: none;
-    margin-right: 30px;
+    margin-left: 30px;
 }
+
+/* new code starts here */
+
+.menu-icon {
+    cursor: pointer;
+    float: left;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+}
+
+#navigation-icon {
+    background: rgb(255, 200, 50);
+    display: block;
+    margin-left: 10px;
+    height: 2px;
+    width: 18px;
+    position: relative;
+    transition: .2s ease-out;
+}
+
+#navigation-icon:before,
+#navigation-icon:after {
+    background: rgb(255, 200, 50);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    transition: all .2s ease-out;
+}
+
+#navigation-icon:before {
+    top: 5px;
+}
+
+#navigation-icon:after {
+    top: -5px;
+}
+
+.menu-button {
+    display: none;
+}
+
+.menu-button:checked~.menu-icon #navigation-icon {
+    background: transparent;
+}
+
+.menu-button:checked~.menu-icon #navigation-icon:before {
+    transform: rotate(-45deg);
+}
+
+.menu-button:checked~.menu-icon #navigation-icon:after {
+    transform: rotate(45deg);
+}
+
+.menu-button:checked~.menu-icon:not(.steps) #navigation-icon:before,
+.menu-button:checked~.menu-icon:not(.steps) #navigation-icon:after {
+    top: 0;
+}
+
+/* menu btn */
+
+.menu-button {
+    display: none;
+}
+
+.menu-button:checked~.list-items {
+    max-height: 240px;
+}
+
+/* new code ends here */
 
 #navigation a {
     text-decoration: none;
@@ -105,24 +176,8 @@ hr {
 #navigation a:hover {
     font-weight: bolder;
     color: red;
-    border-bottom: none;    
+    border-bottom: none;
 }
-
-input[type=checkbox] {
-    margin-top: 20px;
-    display: none;
-}
-input[type=checkbox]:checked ~ .list-items {
-    max-height: 240px;
-  }
-
-#navigation-icon {
-    background: #333;
-    display: block;
-    height: 2px;
-    position: relative;
-    width: 18px;
-  }
 
 /* ================================================= FOOTER ================================================= */
 
@@ -141,6 +196,12 @@ footer p {
 #footer-ul {
     width: 33%;
     float: left;
+}
+
+.list-items-footer li {
+    float: left;
+    list-style-type: none;
+    margin-left: 30px;
 }
 
 #terms {
@@ -298,7 +359,7 @@ footer a {
 
 #be-prepared {
     height: 900px;
-    width:100%;
+    width: 100%;
     background-color: black;
     color: silver;
 }
@@ -748,6 +809,7 @@ input[type=submit]:hover {
     text-align: left;
     padding: 10px;
 }
+
 .radio-right {
     float: left;
     width: 90%;
@@ -778,7 +840,7 @@ input[type=email],
 input[type=tel] {
     height: 30px;
     width: 60%;
-	margin: 0 auto;
+    margin: 0 auto;
     padding: 0 5px;
     border: 2px double rgb(255, 200, 50);
 }
@@ -789,7 +851,7 @@ input[list=alcohol] {
 
     height: 30px;
     width: 60%;
-	margin: 0 auto;
+    margin: 0 auto;
     padding: 0 5px;
 }
 
@@ -807,7 +869,7 @@ input[type=radio] {
 }
 
 /* Fix color to show */
-input[type=radio]:checked{
+input[type=radio]:checked {
     background-color: rgb(255, 200, 50);
 }
 
@@ -831,7 +893,9 @@ input[type=radio]:checked{
 
 /* ====================== larger to extra large 4K screen size ====================== */
 @media screen and (min-width: 2000px) {
-    #secret-outer, #secret-image {
+
+    #secret-outer,
+    #secret-image {
         height: 1290px;
     }
 
@@ -847,26 +911,49 @@ input[type=radio]:checked{
 
     #form {
         top: 20%;
-        left:auto;
+        left: auto;
     }
 }
 
 /* ====================== larger to medium screen size 1200px and below ====================== */
 @media screen and (max-width: 1600px) {
-    #be-prepared, #contact-us, #form{
+
+    #be-prepared,
+    #contact-us,
+    #form {
         height: 1200px;
         margin: 0 auto;
     }
-    
-    #be-prepared h2, #secret-image-title, #contact-us h2 {
+
+    #be-prepared h2,
+    #secret-image-title,
+    #contact-us h2 {
         padding: 30px 0;
         margin: 0 auto;
-    } 
+    }
 
-    #left-be-prepared, #right-be-prepared, #left-contact-us, #right-contact-us, #form-left, #form-right {
+    #left-be-prepared,
+    #right-be-prepared,
+    #left-contact-us,
+    #right-contact-us,
+    #form-left,
+    #form-right {
         width: 100%;
         float: left;
-        padding:0;
+        padding: 0;
         margin: 0 auto;
+    }
+}
+
+@media (min-width: 1150px) {
+
+    .list-items {
+        clear: none;
+        float: left;
+        max-height: none;
+    }
+
+    .menu-icon {
+        display: none;
     }
 }
