@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Blind Tiger, a speakeasy in the heart of Saint Petersburg, Florida">
+    <meta name="description" content="Blind Tiger, a fictional speakeasy bar in the heart of Saint Petersburg, Florida">
     <meta name="keywords" content="blind tiger, speakeasy, underground bar, saint petersburg, florida">
     <meta name="author" content="Blind Tiger">
 
@@ -19,27 +19,29 @@
     <!-- ================================================= HEADER ================================================= -->
 
     <!-- TO DO: Change file size for images -->
+    <!-- TO DO: Create page for 404 error -->
     <!-- TO DO: Create burger menu for different screen sizes -->
+    <!-- TO DO: Change color of navigation active and hover -->
     <header>
         <nav id="navigation">
             <ul class="list-items">
                 <li>
-                    <a href="index.html" class="active left-margin">Home</a>
+                    <a href="index.html" class="active left-margin" aria-label="Go to top of the home page">Home</a>
                 </li>
                 <li>
-                    <a href="#be-prepared">Be Prepared</a>
+                    <a href="#be-prepared" aria-label="Go to be prepared section">Be Prepared</a>
                 </li>
                 <li>
-                    <a href="#contact-us">Contact Us</a>
+                    <a href="#contact-us" aria-label="Go to contact us section">Contact Us</a>
                 </li>
                 <li>
-                    <a href="menu.html">Sinner's Menu</a>
+                    <a href="menu.html" aria-label="Go to the drinks menu page">Sinner's Menu</a>
                 </li>
                 <li>
-                    <a href="secret.html">It's A Secret!</a>
+                    <a href="secret.html" aria-label="Fill out this form in order to obtain the secret location of the Blind Tiger speakeasy bar">It's A Secret!</a>
                 </li>
             </ul>
-            <a href="index.html">
+            <a href="index.html" aria-label="Go to top of the home page">
                 <h1 id="logo">BLIND TIGER</h1>
             </a>
         </nav>
@@ -58,7 +60,6 @@
             <h1>Blind Tiger</h1>
             <br>
             <h3>since 1921</h3>
-
         </div>
     </section>
 
@@ -113,11 +114,11 @@
     <!-- ================================================= MENU LINK SECTION ================================================= -->
 
     <!-- TO DO: Fix responsiveness for image for max-width: 1024px -->
-    <!-- TO DO: Change h2 and span -->
+    <!-- TO DO: Delete span and style a to be inline for larger screen sizes and block for smaller -->
     <section id="menu-selection">
         <div id="menu-selection-image"></div>
         <div id="menu-selection-text">
-            <h2>Take a Peek at our <span><a href="menu.html">Sinner's Menu</a></span></h2>
+            <h2>Take a Peek at our <a href="menu.html" aria-label="Go to the drinks menu page">Sinner's Menu</a></span></h2>
         </div>
     </section>
 
@@ -140,14 +141,14 @@
                 </div>
                 <div>
                     <h3>Get in Touch</h3>
-                    <p>Give us a Call at : <a href="tel:0123456789"> 012 345 6789</a></p>
+                    <p>Give us a Call at : <a href="tel:0123456789" aria-label="Opens a link to the phone number of Blind Tiger"> 012 345 6789</a></p>
                     <p>Through us an E-mail at : <a href="mailto:mariageorgepapas@gmail.com"
-                            target="_blank">contact@blindtiger.com</a></p>
+                            target="_blank" aria-label="Opens a link to your selected email program to send an email to Blind Tiger">contact@blindtiger.com</a></p>
                 </div>
             </div>
             <div id="right-contact-us">
                 <h3>Want to know more? <br><br> Click down below</h3>
-                <a href="secret.html">It's A Secret!</a>
+                <a href="secret.html" aria-label="Fill out this form in order to obtain the secret location of the Blind Tiger speakeasy bar">It's A Secret!</a>
             </div>
         </div>
     </section>
@@ -173,25 +174,23 @@
 
     <!-- TO DO: Create social media dropdown for different screen sizes -->
     <!-- TO DO: Reposition social media, copyrights, and terms divs as a list for different screen sizes -->
+    <!-- TO DO: Terms & Conditions link ??? -->
 
     <footer>
         <hr>
         <div id="footer-ul">
             <ul class="list-items">
                 <li>
-                    <a href="https://www.facebook.com" class="left-margin fa fa-facebook" target="_blank"></a>
+                    <a href="https://www.facebook.com" class="left-margin fa fa-facebook" target="_blank" rel="noopener" aria="Go to our Facebook Page (opens in a new tab)"></a>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com" class="fa fa-youtube" target="_blank"></a>
+                    <a href="https://www.youtube.com" class="fa fa-youtube" target="_blank" rel="noopener" aria="Go to our YouTube Page (opens in a new tab)"></a>
                 </li>
                 <li>
-                    <a href="https://www.snapchat.com/" class="fa fa-snapchat-ghost" target="_blank"></a>
+                    <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank" rel="noopener" aria="Go to our Instagram Page (opens in a new tab)"></a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank"></a>
-                </li>
-                <li>
-                    <a href="https://www.twitter.com" class="fa fa-twitter" target="_blank"></a>
+                    <a href="https://www.twitter.com" class="fa fa-twitter" target="_blank" rel="noopener" aria="Go to our Twitter Page (opens in a new tab)"></a>
                 </li>
             </ul>
         </div>

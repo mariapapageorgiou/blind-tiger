@@ -12,35 +12,36 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
-    <title>Welcome to Blind Tiger!</title>
+    <title>The Sinner's Menu</title>
 </head>
 
 <body>
     <!-- ================================================= HEADER ================================================= -->
 
-    <!-- TO DO: Create "It's A Secret!"" page -->
     <header>
         <nav id="navigation">
             <ul class="list-items">
                 <li>
-                    <a href="index.html" class="left-margin">Home</a>
+                    <a href="index.html" class="left-margin" aria-label="Go to top of the home page">Home</a>
                 </li>
                 <li>
-                    <a href="index.html#be-prepared">Be Prepared</a>
+                    <a href="index.html#be-prepared" aria-label="Go to be prepared section">Be Prepared</a>
                 </li>
                 <li>
-                    <a href="index.html#contact-us">Contact Us</a>
+                    <a href="index.html#contact-us" aria-label="Go to contact us section">Contact Us</a>
                 </li>
                 <li>
-                    <a href="menu.html" class="active">Sinner's Menu</a>
+                    <a href="menu.html" class="active" aria-label="Go to the drinks menu page">Sinner's Menu</a>
                 </li>
                 <li>
-                    <a href="secret.html">It's A Secret!</a>
+                    <a href="secret.html" aria-label="Fill out this form in order to obtain the secret location of the Blind Tiger speakeasy bar">It's A Secret!</a>
                 </li>
             </ul>
-            <a href="index.html"><h1 id="logo">BLIND TIGER</h1></a>
+            <a href="index.html" aria-label="Go to top of the home page">
+                <h1 id="logo">BLIND TIGER</h1>
+            </a>
         </nav>
-        
+
         <hr>
     </header>
 
@@ -48,7 +49,7 @@
 
     <!-- TO DO: Fix css & html to have styling for both main images with a class-->
     <!-- TO DO: Fix css & html to have styling for both text over main with a class -->
-    <section id="menu-outer">
+    <section id="menu">
         <div id="menu-image" class="main-images"></div>
         <div id="menu-text-over-image" class="text-over-main">
             <h1>Sinner's Menu</h1>
@@ -59,7 +60,10 @@
 
     <!-- ================================================= DRINKS & BEVERAGES SECTION ================================================= -->
 
-    <!-- TO DO: Add images next to each drinks div (if there is time) -->
+    <!-- TO DO: Fix spirits-one margin-top for more space on top -->
+    <!-- TO DO: Change height of drinks section for max-width: 1750px -->
+    <!-- TO DO: Change height of drinks section and rearrange them to be one on top of one another for max-width: 1024px -->
+    <!-- TO DO: Add images next to each drinks div -->
     <section id="drinks">
         <div id="first-drinks-section">
             <div id="cocktails" class="drinks-div">
@@ -336,14 +340,12 @@
                     <p>Free Apetizers</p>
                     <h3>~</h3>
                 </li>
-
                 <li>
                     <h4>Sunday</h4>
                     <p>All Day Long</p>
                     <P>A Drink Is On The House</P>
                     <h3>~</h3>
                 </li>
-
             </ul>
         </div>
     </section>
@@ -355,29 +357,25 @@
         <div id="footer-ul">
             <ul class="list-items">
                 <li>
-                    <a href="https://www.facebook.com" class="left-margin fa fa-facebook" target="_blank"></a>
+                    <a href="https://www.facebook.com" class="left-margin fa fa-facebook" target="_blank" rel="noopener" aria="Go to our Facebook Page (opens in a new tab)"></a>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com" class="fa fa-youtube" target="_blank"></a>
+                    <a href="https://www.youtube.com" class="fa fa-youtube" target="_blank" rel="noopener" aria="Go to our YouTube Page (opens in a new tab)"></a>
                 </li>
                 <li>
-                    <a href="https://www.snapchat.com/" class="fa fa-snapchat-ghost" target="_blank"></a>
+                    <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank" rel="noopener" aria="Go to our Instagram Page (opens in a new tab)"></a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank"></a>
-                </li>
-                <li>
-                    <a href="https://www.twitter.com" class="fa fa-twitter" target="_blank"></a>
+                    <a href="https://www.twitter.com" class="fa fa-twitter" target="_blank" rel="noopener" aria="Go to our Twitter Page (opens in a new tab)"></a>
                 </li>
             </ul>
         </div>
         <div id="terms">
-            <a href="index.html">Terms & Conditions</a> 
+            <a href="index.html">Terms & Conditions</a>
         </div>
         <div id="copyrights">
             <p>Copyright © Blind Tiger 2021</p>
         </div>
-        
     </footer>
 </body>
 </html>
