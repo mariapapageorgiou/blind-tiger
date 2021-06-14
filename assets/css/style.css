@@ -1046,12 +1046,31 @@ input[type=radio]:checked {
     }
 }
 
+/* ====================== 525px to mobile screen sizes ====================== */
+
 @media screen and (max-width:525px) {
+
+    #be-prepared {
+        height: 2200px;
+    }
+
+    #contact-us {
+        font-size: 80%;
+    }
+
     #newsletter {
         height: 75vw;
     }
 
     #form-newsletter {
         padding: 10px 50px 20px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    #left-be-prepared p,
+    #right-be-prepared p {
+        padding: 5px 30px;
     }
 }
