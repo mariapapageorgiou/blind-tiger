@@ -275,7 +275,7 @@ footer a {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100%;
     background-color: black;
 
     animation-name: main-zoom;
@@ -290,7 +290,7 @@ footer a {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100%;
     background-color: black;
 
     animation-name: main-zoom;
@@ -304,7 +304,7 @@ footer a {
     }
 
     to {
-        transform: scale(1.5);
+        transform: scale(1.3);
     }
 }
 
@@ -911,7 +911,7 @@ input[type=radio]:checked {
     }
 }
 
-/* ====================== larger to medium screen size 1200px and below ====================== */
+/* ====================== larger to medium screen size 1600px and below ====================== */
 @media screen and (max-width: 1600px) {
 
     #be-prepared,
@@ -941,7 +941,9 @@ input[type=radio]:checked {
     }
 }
 
-@media (min-width: 1150px) {
+/* ====================== larger to smaller screen sizes menu icon ====================== */
+
+@media screen and (min-width: 1150px) {
 
     .list-items {
         clear: none;
@@ -951,5 +953,14 @@ input[type=radio]:checked {
 
     .menu-icon {
         display: none;
+    }
+}
+
+/* ====================== medium to tablet screen size 1024px and below ====================== */
+@media screen and (max-width:1024px) {
+    
+    #be-prepared {
+        height: 1500px;
+        margin: 0 auto;
     }
 }
