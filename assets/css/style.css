@@ -591,7 +591,7 @@ input[type=submit]:hover {
 /* ================================================= DRINKS & BEVERAGES SECTION ================================================= */
 
 #drinks {
-    height: 1825px;
+    height: 2000px;
     width: 100%;
     background-color: rgb(40, 0, 0);
     color: silver;
@@ -620,20 +620,19 @@ input[type=submit]:hover {
 #drinks li {
     list-style-type: none;
     text-align: left;
-    padding-left: 30px;
-    padding-top: 20px;
+    padding: 20px 20px 0;
 }
 
 #first-drinks-section,
 #second-drinks-section {
-    height: 825px;
-    padding: 50px 50px 0;
+    height: fit-content;
+    padding: 50px 50px 25px;
 }
 
 .drinks-div {
     width: 30%;
     font-size: 125%;
-    padding: 0 0 50px;
+    padding: 0 0 25px;
     box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.4), 0 0 20px 15px rgba(255, 255, 255, 0.3);
     background-color: black;
 }
@@ -915,6 +914,10 @@ input[type=radio]:checked {
         margin: 0 400px 0 200px;
     }
 
+    #drinks {
+        height: 1800px;
+    }
+
     #secret-outer,
     #secret-image {
         height: 1290px;
@@ -940,11 +943,26 @@ input[type=radio]:checked {
     #be-prepared {
         height: 900px;
     }
+
+    #drinks {
+        height: 1850px
+    }
+}
+
+@media screen and (max-width: 1800px) {
+
+    #drinks {
+        height: 1950px;
+    }
 }
 
 @media screen and (max-width: 1600px) {
     #be-prepared {
         height: 1000px;
+    }
+
+    #drinks {
+        height: 2050px;
     }
 }
 
@@ -992,6 +1010,22 @@ input[type=radio]:checked {
     #left-contact-us h3 {
         padding: 75px 50px 25px;
     }
+
+    #drinks {
+        height: 4775px;
+    }
+
+    #drinks .drinks-div {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0 0 20px 0;
+        margin: 50px auto 0;
+    }
+
+    #drinks h4, #drinks p {
+        text-align: center;
+    }
 }
 
 /* ====================== larger to smaller screen sizes menu icon ====================== */
@@ -1025,16 +1059,21 @@ input[type=radio]:checked {
         font-size: 75%;
     }
 
-    #newsletter-email{
+    #newsletter-email {
         padding: 6px 10px;
         width: 50%;
+    }
+
+    #drinks {
+        height: 4900px;
     }
 }
 
 /* ====================== tablet to smaller screen size 768px to 526px ====================== */
 @media screen and (max-width:768px) {
 
-    #main-outer, #menu {
+    #main-outer,
+    #menu {
         height: 85vw;
     }
 
@@ -1047,6 +1086,7 @@ input[type=radio]:checked {
         font-size: 55%;
         padding: 20px;
     }
+
     #be-prepared {
         height: 1550px;
         margin: 0 auto;
@@ -1092,6 +1132,43 @@ input[type=radio]:checked {
         line-height: 10px;
         padding: 10px 5px;
     }
+
+    #drinks {
+        height: 4750px;
+    }
+
+    #drinks p {
+        padding: 5px 10px;
+    }
+    #first-drinks-section, #second-drinks-section {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    #drinks {
+        height: 3950px;
+    }
+
+    #drinks li {
+        padding: 10px 5px 0;
+    }
+
+    #drinks .drinks-div {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    #drinks {
+        height: 4050px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    #drinks {
+        height: 4150px;
+    }
 }
 
 /* ====================== 525px to mobile screen sizes ====================== */
@@ -1109,11 +1186,13 @@ input[type=radio]:checked {
     #be-prepared {
         height: 1300px;
     }
+
     #be-prepared p {
         padding: 5px 35px;
     }
 
-    #be-prepared, #contact-us {
+    #be-prepared,
+    #contact-us {
         font-size: 80%;
     }
 
@@ -1124,6 +1203,20 @@ input[type=radio]:checked {
     #form-newsletter {
         padding: 10px 50px 20px;
     }
+
+    #drinks {
+        height: 4250px;
+    }
+}
+
+@media screen and (max-width: 476px) {
+    #drinks {
+        height: 4350px;
+    }
+
+    #drinks li {
+        padding: 7px 0 0;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -1131,12 +1224,38 @@ input[type=radio]:checked {
     #be-prepared {
         height: 1500px;
     }
+
+    #drinks {
+        height: 4500px;
+    }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 391px) {
+    #drinks {
+        height: 4700px;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    #drinks {
+        height: 4800px;
+    }
+}
+
+@media screen and (max-width: 352px) {
 
     #left-be-prepared p,
     #right-be-prepared p {
         padding: 5px 20px;
+    }
+
+    #drinks {
+        height: 4900px;
+    }
+}
+
+@media screen and (max-width: 335px) {
+    #drinks {
+        height: 5200px;
     }
 }
