@@ -899,6 +899,22 @@ input[type=radio]:checked {
 
 @media screen and (min-width: 2000px) {
 
+    #left-contact-us h3 {
+        padding: 75px 200px 25px 400px;
+    }
+
+    #left-contact-us p {
+        padding: 10px 100px 0 400px;
+    }
+
+    #right-contact-us h3 {
+        padding: 175px 400px 50px 200px;
+    }
+
+    #right-contact-us a {
+        margin: 0 400px 0 200px;
+    }
+
     #secret-outer,
     #secret-image {
         height: 1290px;
