@@ -344,7 +344,7 @@ footer a {
 
 #menu-text-over-image {
     font-size: 70%;
-    width: 500px;
+    width: fit-content;
     height: 66px;
     padding: 20px 15px 20px 25px;
 }
@@ -565,7 +565,7 @@ footer a {
     padding: 10px;
     border-style: groove;
 
-    width: 350px;
+    width: 60%;
 }
 
 input[type=submit] {
@@ -917,10 +917,13 @@ input[type=radio]:checked {
 @media screen and (max-width: 1440px) {
 
     #be-prepared,
-    #contact-us,
     #form {
         height: 1200px;
         margin: 0 auto;
+    }
+
+    #contact-us {
+        height: 900px;
     }
 
     #be-prepared h2,
@@ -940,6 +943,19 @@ input[type=radio]:checked {
         float: left;
         padding: 0;
         margin: 0 auto;
+    }
+
+    #left-contact-us p {
+        text-align: center;
+        padding: 10px 20px 0;
+    }
+
+    #right-contact-us h3 {
+        padding: 100px 50px 50px;
+    }
+
+    #left-contact-us h3 {
+        padding: 75px 50px 25px;
     }
 }
 
@@ -999,13 +1015,13 @@ input[type=radio]:checked {
 
     #newsletter-email {
         font-size: 100%;
-        padding: 0;
+        padding: 0 10px;
         width: 50%;
     }
 
     #newsletter-text input[type=submit] {
         font-size: 100%;
         line-height: 10px;
-        padding: 10px;
+        padding: 10px 5px;
     }
 }
