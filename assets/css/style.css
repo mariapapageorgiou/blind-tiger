@@ -889,7 +889,14 @@ input[type=radio]:checked {
 
 /* ====================== MEDIA QUERIES ====================== */
 
-/* ====================== larger to extra large 4K screen size ====================== */
+/* ====================== x-large to large screen size 3000px to 1441px ====================== */
+
+@media screen and (max-width: 3000px) {
+    #be-prepared {
+        height: 800px;
+    }
+}
+
 @media screen and (min-width: 2000px) {
 
     #secret-outer,
@@ -910,6 +917,18 @@ input[type=radio]:checked {
     #form {
         top: 20%;
         left: auto;
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    #be-prepared {
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    #be-prepared {
+        height: 1000px;
     }
 }
 
@@ -1000,7 +1019,7 @@ input[type=radio]:checked {
 @media screen and (max-width:768px) {
 
     #be-prepared {
-        height: 1600px;
+        height: 1550px;
         margin: 0 auto;
     }
 
@@ -1051,10 +1070,13 @@ input[type=radio]:checked {
 @media screen and (max-width:525px) {
 
     #be-prepared {
-        height: 2200px;
+        height: 1300px;
+    }
+    #be-prepared p {
+        padding: 5px 35px;
     }
 
-    #contact-us {
+    #be-prepared, #contact-us {
         font-size: 80%;
     }
 
@@ -1067,10 +1089,17 @@ input[type=radio]:checked {
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 425px) {
+
+    #be-prepared {
+        height: 1500px;
+    }
+}
+
+@media screen and (max-width: 350px) {
 
     #left-be-prepared p,
     #right-be-prepared p {
-        padding: 5px 30px;
+        padding: 5px 20px;
     }
 }
