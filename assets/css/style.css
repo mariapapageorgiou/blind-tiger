@@ -514,7 +514,7 @@ footer a {
 /* ================================================= NEWSLETTER SECTION ================================================= */
 
 #newsletter {
-    height: 45vw;
+    height: 50vw;
     width: 100%;
     background-color: black;
     color: silver;
@@ -985,6 +985,15 @@ input[type=radio]:checked {
         height: 1500px;
         margin: 0 auto;
     }
+
+    #newsletter {
+        font-size: 75%;
+    }
+
+    #newsletter-email{
+        padding: 6px 10px;
+        width: 50%;
+    }
 }
 
 /* ====================== tablet to smaller screen size 768px to 526px ====================== */
@@ -1012,11 +1021,11 @@ input[type=radio]:checked {
     }
 
     #newsletter {
-        height: 75vw;
+        height: 60vw;
     }
 
     #newsletter-text h3 {
-        font-size: 100%;
+        font-size: 150%;
         padding: 20px 20px 0;
     }
 
@@ -1031,8 +1040,18 @@ input[type=radio]:checked {
     }
 
     #newsletter-text input[type=submit] {
-        font-size: 100%;
+        font-size: 150%;
         line-height: 10px;
         padding: 10px 5px;
+    }
+}
+
+@media screen and (max-width:525px) {
+    #newsletter {
+        height: 75vw;
+    }
+
+    #form-newsletter {
+        padding: 10px 50px 20px;
     }
 }
