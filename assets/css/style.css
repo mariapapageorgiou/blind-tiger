@@ -911,7 +911,7 @@ input[type=radio]:checked {
     }
 }
 
-/* ====================== larger to medium screen size 1600px and below ====================== */
+/* ====================== larger to medium screen size 1600px to 1025px ====================== */
 @media screen and (max-width: 1600px) {
 
     #be-prepared,
@@ -956,11 +956,25 @@ input[type=radio]:checked {
     }
 }
 
-/* ====================== medium to tablet screen size 1024px and below ====================== */
+/* ====================== medium to tablet screen size 1024px to 769px ====================== */
 @media screen and (max-width:1024px) {
     
     #be-prepared {
         height: 1500px;
         margin: 0 auto;
+    }
+}
+
+/* ====================== tablet to smaller screen size 768px to 526px ====================== */
+@media screen and (max-width:768px) {
+    
+    #be-prepared {
+        height: 1600px;
+        margin: 0 auto;
+    }
+
+    #left-be-prepared p,
+    #right-be-prepared p {
+        padding: 10px 50px;
     }
 }
