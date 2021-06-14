@@ -386,7 +386,7 @@ footer a {
 /* ================================================= MENU SELECTION ================================================= */
 
 #menu-selection {
-    height: 700px;
+    height: 40vw;
     width: 100%;
     background-color: black;
     color: silver;
@@ -394,7 +394,7 @@ footer a {
 }
 
 #menu-selection-image {
-    height: 700px;
+    height: 100%;
     width: 100%;
     background-image: url("../images/sergio-alves-santos-PeDrafNlY2Y-unsplash.jpg");
     background-size: 100%;
@@ -408,7 +408,7 @@ footer a {
     font-size: 110%;
 
     width: 100%;
-    height: 100px;
+    height: fit-content;
 
     top: 50%;
     left: 50%;
@@ -998,6 +998,17 @@ input[type=radio]:checked {
     #left-be-prepared p,
     #right-be-prepared p {
         padding: 10px 50px;
+    }
+
+    #menu-selection {
+        height: 70vw;
+        font-size: 80%;
+    }
+
+    #menu-selection a {
+        display: block;
+        margin: 20px auto;
+        width: 35%;
     }
 
     #newsletter {
