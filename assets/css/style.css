@@ -262,19 +262,18 @@ footer a {
 
 #main-outer,
 #menu {
-    height: 775px;
+    height: 50vw;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #main-image {
-    height: 775px;
+    height: 100%;
     width: 100%;
     background-image: url('../images/pexels-chris-f-1283219.jpg');
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed;
     background-size: 100%;
     background-color: black;
 
@@ -284,12 +283,11 @@ footer a {
 }
 
 #menu-image {
-    height: 775px;
+    height: 100%;
     width: 100%;
     background-image: url('../images/StockSnap_9UJ3HU7PR8.jpg');
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed;
     background-size: 100%;
     background-color: black;
 
