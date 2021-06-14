@@ -310,7 +310,7 @@ footer a {
 
 #text-over-image,
 #menu-text-over-image {
-    width: 525px;
+    width: fit-content;
     height: 150px;
     padding: 50px;
 
@@ -957,6 +957,10 @@ input[type=radio]:checked {
 /* ====================== medium to tablet screen size 1024px to 769px ====================== */
 @media screen and (max-width:1024px) {
     
+    #main-outer {
+        height: 75vw;
+    }
+
     #be-prepared {
         height: 1500px;
         margin: 0 auto;
