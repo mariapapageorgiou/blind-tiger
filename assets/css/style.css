@@ -960,7 +960,7 @@ input[type=radio]:checked {
 
 /* ====================== medium to tablet screen size 1024px to 769px ====================== */
 @media screen and (max-width:1024px) {
-    
+
     #main-outer {
         height: 75vw;
     }
@@ -973,7 +973,7 @@ input[type=radio]:checked {
 
 /* ====================== tablet to smaller screen size 768px to 526px ====================== */
 @media screen and (max-width:768px) {
-    
+
     #be-prepared {
         height: 1600px;
         margin: 0 auto;
@@ -982,5 +982,30 @@ input[type=radio]:checked {
     #left-be-prepared p,
     #right-be-prepared p {
         padding: 10px 50px;
+    }
+
+    #newsletter {
+        height: 75vw;
+    }
+
+    #newsletter-text h3 {
+        font-size: 100%;
+        padding: 20px 20px 0;
+    }
+
+    #form-newsletter {
+        padding: 0 10px 20px;
+    }
+
+    #newsletter-email {
+        font-size: 100%;
+        padding: 0;
+        width: 50%;
+    }
+
+    #newsletter-text input[type=submit] {
+        font-size: 100%;
+        line-height: 10px;
+        padding: 10px;
     }
 }
