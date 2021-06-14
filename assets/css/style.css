@@ -311,7 +311,7 @@ footer a {
 #text-over-image,
 #menu-text-over-image {
     width: fit-content;
-    height: 150px;
+    height: fit-content;
     padding: 50px;
 
     background-color: rgba(1, 10, 65, 0.8);
@@ -1034,6 +1034,14 @@ input[type=radio]:checked {
 /* ====================== tablet to smaller screen size 768px to 526px ====================== */
 @media screen and (max-width:768px) {
 
+    #main-outer {
+        height: 85vw;
+    }
+
+    #text-over-image {
+        font-size: 60%;
+        padding: 35px;
+    }
     #be-prepared {
         height: 1550px;
         margin: 0 auto;
@@ -1084,6 +1092,10 @@ input[type=radio]:checked {
 /* ====================== 525px to mobile screen sizes ====================== */
 
 @media screen and (max-width:525px) {
+
+    #text-over-image {
+        padding: 20px;
+    }
 
     #be-prepared {
         height: 1300px;
