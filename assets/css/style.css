@@ -544,7 +544,7 @@ footer a {
 }
 
 #newsletter h3 {
-    font-size: 200%;
+    font-size: 150%;
     padding: 40px 40px 15px;
     color: whitesmoke;
     text-shadow: 2px 2px 1px black;
@@ -602,7 +602,7 @@ input[type=submit]:hover {
     color: rgb(255, 200, 50);
     border: 3px double rgb(255, 200, 50);
 
-    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.4), 0 0 10px 5px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.5), 0 0 2px 2px rgba(255, 255, 255, 0.4);
 }
 
 #drinks h4 {
@@ -633,7 +633,7 @@ input[type=submit]:hover {
     width: 30%;
     font-size: 125%;
     padding: 0 0 25px;
-    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.4), 0 0 20px 15px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.4), 0 0 5px 5px rgba(255, 255, 255, 0.3);
     background-color: black;
 }
 
@@ -665,6 +665,7 @@ input[type=submit]:hover {
     height: 800px;
     width: 100%;
     background-image: url("../images/pexels-cottonbro-5371926.jpg");
+    opacity: 0.6;
     background-size: 50%;
     background-repeat: repeat-x;
     background-position-x: left;
@@ -672,7 +673,7 @@ input[type=submit]:hover {
 }
 
 #happy-hour-text {
-    background-color: rgba(4, 18, 105, 0.9);
+    background-color: rgba(4, 18, 105, 0.8);
     height: 550px;
     top: 50%;
     left: 50%;
@@ -680,7 +681,7 @@ input[type=submit]:hover {
     transform: translate(-50%, -50%);
 
     border: 3px double rgb(255, 200, 50);
-    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.4), 0 0 20px 10px rgba(255, 255, 255, 0.3);
+    /* box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.4), 0 0 10px 5px rgba(255, 255, 255, 0.3); */
 }
 
 #happy-hour h2 {
