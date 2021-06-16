@@ -22,7 +22,7 @@ header {
     top: 0;
     left: 0;
     z-index: 100;
-    background-color: rgba(36, 36, 36, 0.9);
+    background-color: rgba(20, 20, 20, 0.9);
 }
 
 /* ================================================= HEADINGS ================================================= */
@@ -112,7 +112,7 @@ hr {
 .menu-icon {
     cursor: pointer;
     float: left;
-    padding: 25px 20px;
+    padding: 25px 10px;
     position: relative;
     user-select: none;
 }
@@ -216,11 +216,6 @@ footer p {
     margin: 0 auto;
     padding-left: 40px;
     color: rgb(255, 200, 50);
-}
-
-#footer-ul li {
-    list-style-type: none;
-    display: inline-block;
 }
 
 footer a {
@@ -986,6 +981,11 @@ input[type=radio]:checked {
 /* ====================== larger to medium screen size 1440px to 1025px ====================== */
 @media screen and (max-width: 1440px) {
 
+
+    header {
+        font-size: 80%;
+    }
+
     #be-prepared,
     #form {
         height: 1200px;
@@ -1065,23 +1065,20 @@ input[type=radio]:checked {
     }
 }
 
-/* ====================== larger to smaller screen sizes menu icon ====================== */
-
-@media screen and (min-width: 1150px) {
-
-    .list-items {
-        clear: none;
-        float: left;
-        max-height: none;
-    }
-
-    .menu-icon {
-        display: none;
-    }
-}
-
 /* ====================== medium to tablet screen size 1024px to 769px ====================== */
 @media screen and (max-width:1024px) {
+
+    header {
+        font-size: 65%;
+    }
+
+    .list-items li, .list-items-footer li {
+        margin-left: 15px;
+    }
+
+    #logo, #terms {
+        margin-right: 15px;
+    }
 
     #main-outer {
         height: 75vw;
@@ -1110,6 +1107,21 @@ input[type=radio]:checked {
         height: 60vw;
         font-size: 55%;
 
+    }
+}
+
+/* ====================== tablet to smaller screen sizes menu icon ====================== */
+
+@media screen and (min-width: 850px) {
+
+    .list-items {
+        clear: none;
+        float: left;
+        max-height: none;
+    }
+
+    .menu-icon {
+        display: none;
     }
 }
 
@@ -1214,7 +1226,7 @@ input[type=radio]:checked {
 @media screen and (max-width:525px) {
 
     #logo {
-        font-size: 80%;
+        font-size: 90%;
     }
 
     #text-over-image {
