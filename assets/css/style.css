@@ -1053,7 +1053,7 @@ input[type=radio]:checked {
     }
 
     #happy-hour ul {
-        padding: 25px 0 0;
+        padding: 20px 0 0;
     }
 
     #happy-hour li {
@@ -1061,7 +1061,7 @@ input[type=radio]:checked {
     }
 
     #happy-hour h4 {
-        padding: 0 0 10px;
+        padding: 0 0 5px;
     }
 }
 
@@ -1103,6 +1103,13 @@ input[type=radio]:checked {
 
     #drinks {
         height: 4900px;
+    }
+
+    
+    #happy-hour {
+        height: 60vw;
+        font-size: 55%;
+
     }
 }
 
