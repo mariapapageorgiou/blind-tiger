@@ -967,6 +967,10 @@ input[type=radio]:checked {
     #drinks {
         height: 1950px;
     }
+
+    #happy-hour {
+        font-size: 80%;
+    }
 }
 
 @media screen and (max-width: 1600px) {
@@ -1038,6 +1042,26 @@ input[type=radio]:checked {
 
     #drinks h4, #drinks p {
         text-align: center;
+    }
+
+    #happy-hour {
+        font-size: 70%;
+    }
+
+    #happy-hour h2, #happy-hour h3 {
+        padding: 15px 25px;
+    }
+
+    #happy-hour ul {
+        padding: 25px 0 0;
+    }
+
+    #happy-hour li {
+        padding: 0;
+    }
+
+    #happy-hour h4 {
+        padding: 0 0 10px;
     }
 }
 
