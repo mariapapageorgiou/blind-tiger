@@ -668,7 +668,7 @@ input[type=submit]:hover {
     background-image: url("../images/pexels-cottonbro-5371926.jpg");
     opacity: 0.6;
     background-size: 50%;
-    background-repeat:repeat;
+    background-repeat:repeat-x;
     background-position-x: left;
     background-position-y: bottom;
 }
@@ -1195,6 +1195,18 @@ input[type=radio]:checked {
     #drinks li {
         padding: 7px 0 0;
     }
+
+    #happy-hour {
+        height: 90vw;
+        font-size: 50%;
+    }
+
+    #happy-hour-image {
+        background-size: 60%;
+        background-repeat:repeat-x;
+        background-position-x: left;
+        background-position-y: center;
+    }
 }
 
 /* ====================== 525px to mobile screen sizes ====================== */
@@ -1239,6 +1251,17 @@ input[type=radio]:checked {
         height: 4000px;
         font-size: 80%;
     }
+
+    #happy-hour {
+        height: 100vw;
+        font-size: 40%;
+    }
+
+    #happy-hour-image {
+        background-size: 70%;
+        background-repeat:repeat-x;
+        background-position: left center;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -1263,6 +1286,17 @@ input[type=radio]:checked {
 
     #menu-text-over-image {
         font-size: 35%;
+    }
+
+    #happy-hour {
+        height: 450px;
+        font-size: 50%;
+    }
+
+    #happy-hour-image {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: left center;
     }
 }
 
