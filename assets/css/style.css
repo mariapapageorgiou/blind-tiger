@@ -185,6 +185,12 @@ footer {
     background-color: black;
 }
 
+footer a {
+    letter-spacing: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
 footer p {
     font-size: 75%;
 }
@@ -216,12 +222,6 @@ footer p {
     margin: 0 auto;
     padding-left: 40px;
     color: rgb(255, 200, 50);
-}
-
-footer a {
-    letter-spacing: 0;
-    text-decoration: none;
-    color: inherit;
 }
 
 /* ================================================= SOCIAL MEDIA ================================================= */
@@ -1218,6 +1218,29 @@ input[type=radio]:checked {
         background-repeat:repeat-x;
         background-position-x: left;
         background-position-y: center;
+    }
+}
+
+
+@media screen and (max-width:666px) {
+
+    footer{
+        margin: 0 auto;
+    }
+
+    #footer-ul, #terms, #copyrights {
+        width: 100%;
+        float:left;
+        background-color: black;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .list-items-footer li {
+        float: none;
+        display: inline;
+        margin: 0 auto;
     }
 }
 
