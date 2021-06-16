@@ -988,8 +988,12 @@ input[type=radio]:checked {
 
     #be-prepared,
     #form {
-        height: 1200px;
+        height: 1000px;
         margin: 0 auto;
+    }
+
+    #be-prepared p {
+        padding: 10px 75px;
     }
 
     #contact-us {
@@ -1003,8 +1007,6 @@ input[type=radio]:checked {
         margin: 0 auto;
     }
 
-    #left-be-prepared,
-    #right-be-prepared,
     #left-contact-us,
     #right-contact-us,
     #form-left,
@@ -1087,6 +1089,18 @@ input[type=radio]:checked {
     #be-prepared {
         height: 1500px;
         margin: 0 auto;
+    }
+
+    #left-be-prepared,
+    #right-be-prepared {
+        width: 100%;
+        float: left;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    #left-be-prepared p {
+        border-right: none;
     }
 
     #newsletter {
