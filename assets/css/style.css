@@ -347,6 +347,7 @@ footer a {
     width: fit-content;
     height: fit-content;
     padding: 20px 15px 20px 25px;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5), 0 0 10px 5px rgba(255, 255, 255, 0.5);
 }
 
 /* ================================================= BE PREPARED SECTION ================================================= */
@@ -655,45 +656,46 @@ input[type=submit]:hover {
 /* ================================================= HAPPY HOUR SECTION ================================================= */
 
 #happy-hour {
-    height: 800px;
+    height: 50vw;
     width: 100%;
     background-color: black;
     position: relative;
 }
 
 #happy-hour-image {
-    height: 800px;
+    height: 100%;
     width: 100%;
     background-image: url("../images/pexels-cottonbro-5371926.jpg");
     opacity: 0.6;
     background-size: 50%;
-    background-repeat: repeat-x;
+    background-repeat:repeat;
     background-position-x: left;
     background-position-y: bottom;
 }
 
 #happy-hour-text {
-    background-color: rgba(4, 18, 105, 0.8);
-    height: 550px;
+    background-color: rgba(4, 17, 105, 0.5);
+    height: fit-content;
+    width: fit-content;
     top: 50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
 
     border: 3px double rgb(255, 200, 50);
-    /* box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.4), 0 0 10px 5px rgba(255, 255, 255, 0.3); */
+    /* box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.4), 0 0 10px 5px rgba(0, 0, 0, 0.3); */
 }
 
 #happy-hour h2 {
     color: rgb(255, 200, 50);
     background-color: initial;
     text-shadow: 2px 2px black;
-    padding: 25px 50px;
+    padding: 20px 50px;
     border-bottom: 3px double rgb(255, 200, 50);
 }
 
 #happy-hour ul {
-    padding: 20px 0;
+    padding: 50px 0 0;
 }
 
 #happy-hour li {
@@ -704,10 +706,20 @@ input[type=submit]:hover {
     padding: 0 0 20px;
 }
 
+#happy-hour h4 {
+    font-size: 120%;
+    padding: 0 0 20px;
+}
+
+#happy-hour p {
+    color: silver;
+    padding: 5px 0;
+}
+
 #happy-hour h3 {
-    font-size: 300%;
+    font-size: 200%;
     color: rgb(255, 200, 50);
-    padding: 0;
+    padding: 30px 0 0;
 }
 
 /* ================================================= IT'S A SECRET IMAGE ================================================= */
@@ -1225,6 +1237,6 @@ input[type=radio]:checked {
 
 @media screen and (max-width: 332px) {
     #drinks {
-        height: 4000px;
+        height: 3900px;
     }
 }
