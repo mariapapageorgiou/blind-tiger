@@ -1064,7 +1064,12 @@ input[type=radio] {
     }
 
     #main-outer {
-        height: 75vw;
+        height: 50vw;
+    }
+
+    #text-over-image {
+        padding: 30px;
+        font-size: 75%;
     }
 
     #be-prepared {
@@ -1132,7 +1137,7 @@ input[type=radio] {
 
     #main-outer,
     #menu {
-        height: 85vw;
+        height: 80vw;
     }
 
     #text-over-image {
@@ -1265,6 +1270,7 @@ input[type=radio] {
 
     #text-over-image {
         padding: 20px;
+        font-size: 45%;
     }
 
     #menu-text-over-image {
@@ -1273,7 +1279,7 @@ input[type=radio] {
     }
 
     #be-prepared {
-        height: 1300px;
+        height: 1050px;
     }
 
     #be-prepared p {
@@ -1282,7 +1288,11 @@ input[type=radio] {
 
     #be-prepared,
     #contact-us {
-        font-size: 80%;
+        font-size: 60%;
+    }
+
+    #contact-us {
+        height: 750px;
     }
 
     #newsletter {
@@ -1319,10 +1329,6 @@ input[type=radio] {
 }
 
 @media screen and (max-width: 425px) {
-
-    #be-prepared {
-        height: 1500px;
-    }
 
     #left-be-prepared p,
     #right-be-prepared p {
@@ -1363,6 +1369,10 @@ input[type=radio] {
 }
 
 @media screen and (max-width: 332px) {
+
+    #text-over-image h1 {
+        font-size: 300%;
+    }
 
     #be-prepared {
         height: 1700px;
